@@ -1,0 +1,55 @@
+{
+    "songs": [
+      {
+        "Name": "Cinta Luar Biasa",
+        "Artist": "Andmesh",
+        "Link": "https://www.youtube.com/watch?v=example1"
+      },
+      {
+        "Name": "Seperti Tulang",
+        "Artist": "Judika",
+        "Link": "https://www.youtube.com/watch?v=example2"
+      },
+      {
+        "Name": "Jangan Rubah Takdirku",
+        "Artist": "Andmesh",
+        "Link": "https://www.youtube.com/watch?v=example3"
+      },
+      {
+        "Name": "Kamulah Takdirku",
+        "Artist": "Ungu & Rossa",
+        "Link": "https://www.youtube.com/watch?v=example4"
+      },
+      {
+        "Name": "Menunggu Kamu",
+        "Artist": "Anji",
+        "Link": "https://www.youtube.com/watch?v=example5"
+      },
+      {
+        "Name": "Dekat di Hati",
+        "Artist": "RAN",
+        "Link": "https://www.youtube.com/watch?v=example6"
+      },
+      {
+        "Name": "Ada Cinta",
+        "Artist": "Acha Septriasa & Irwansyah",
+        "Link": "https://www.youtube.com/watch?v=example7"
+      },
+      {
+        "Name": "Kisah Romantis",
+        "Artist": "Glenn Fredly",
+        "Link": "https://www.youtube.com/watch?v=example8"
+      },
+      {
+        "Name": "Jadian",
+        "Artist": "Zigaz",
+        "Link": "https://www.youtube.com/watch?v=example9"
+      },
+      {
+        "Name": "Melepasmu",
+        "Artist": "Drive",
+        "Link": "https://www.youtube.com/watch?v=example10"
+      }
+    ]
+  }
+  

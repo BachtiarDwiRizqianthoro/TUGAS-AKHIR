@@ -1,0 +1,64 @@
+{
+    "songs": [
+        {
+            "Name": "Pergi Untuk Kembali",
+            "Album": "Krakatau",
+            "Artist": "Krakatau",
+            "Link": "https://www.youtube.com/watch?v=7rZ4ZjG6_Ns"
+        },
+        {
+            "Name": "Benci Untuk Mencinta",
+            "Album": "Truth, Cry & Lie",
+            "Artist": "Naif",
+            "Link": "https://www.youtube.com/watch?v=lqvlcFt9pUw"
+        },
+        {
+            "Name": "Tersiksa Lagi",
+            "Album": "Sabda Rindu",
+            "Artist": "Ruth Sahanaya",
+            "Link": "https://www.youtube.com/watch?v=XzG_c-9X_yY"
+        },
+        {
+            "Name": "Selamat Tinggal",
+            "Album": "Trio Lestari",
+            "Artist": "Trio Lestari (Glenn Fredly, Sandhy Sondoro, Tompi)",
+            "Link": "https://www.youtube.com/watch?v=vXeXhx4KTZs"
+        },
+        {
+            "Name": "Rahasia Perempuan",
+            "Album": "Kembali Satu",
+            "Artist": "Glenn Fredly",
+            "Link": "https://www.youtube.com/watch?v=wXZBIfqgkn8"
+        },
+        {
+            "Name": "Mati Saja",
+            "Album": "Konspirasi",
+            "Artist": "Barry Likumahuwa & The Rhythm Service",
+            "Link": "https://www.youtube.com/watch?v=QODJj27Lcp8"
+        },
+        {
+            "Name": "Cukup Siti Nurbaya (Jazz Version)",
+            "Album": "The Best of Sheila on 7",
+            "Artist": "Sheila on 7",
+            "Link": "https://www.youtube.com/watch?v=xDLGzF2q1T0"
+        },
+        {
+            "Name": "Aku Pasti Kembali",
+            "Album": "Soulmate",
+            "Artist": "Raisa",
+            "Link": "https://www.youtube.com/watch?v=KrDqmyqMsE4"
+        },
+        {
+            "Name": "Jenuh",
+            "Album": "Andien",
+            "Artist": "Andien",
+            "Link": "https://www.youtube.com/watch?v=au3N8KdP23Y"
+        },
+        {
+            "Name": "Tak Pernah Padam",
+            "Album": "Langit dan Bumi",
+            "Artist": "Tulus",
+            "Link": "https://www.youtube.com/watch?v=p1j41LEVI1g"
+        }
+    ]
+}

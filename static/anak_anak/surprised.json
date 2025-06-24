@@ -1,0 +1,55 @@
+{
+    "status": "success",
+    "songs": [
+    {
+      "Name": "Balonku",
+      "Artist": "A.T. Mahmud",
+      "Link": "http://www.youtube.com/watch?v=s1ruiIAubh0"
+    },
+    {
+      "Name": "Cilukba",
+      "Artist": "Bonbon Indonesia",
+      "Link": "http://www.youtube.com/watch?v=774Pp20Y_wg"
+    },
+    {
+      "Name": "Tiba-Tiba",
+      "Artist": "Quinn Salman",
+      "Link": "http://www.youtube.com/watch?v=sJc1EwOrgM0"
+    },
+    {
+      "Name": "Cicak-Cicak di Dinding",
+      "Artist": "A.T. Mahmud",
+      "Link": "http://www.youtube.com/watch?v=0eCFEYTSIAs"
+    },
+    {
+      "Name": "Selamat Ulang Tahun",
+      "Artist": "GNP Music",
+      "Link": "http://www.youtube.com/watch?v=an0P_WSsqkI"
+    },
+    {
+      "Name": "Paman Datang",
+      "Artist": "Tasya",
+      "Link": "http://www.youtube.com/watch?v=0PcyFIOwuj4"
+    },
+    {
+      "Name": "Kereta Apiku",
+      "Artist": "Ibu Sud",
+      "Link": "http://www.youtube.com/watch?v=d1gwZLWXiqo"
+    },
+    {
+      "Name": "Eh, Copot-Copot",
+      "Artist": "Joshua Suherman",
+      "Link": "http://www.youtube.com/watch?v=CA1Emr4LJ5o"
+    },
+    {
+      "Name": "Menabung",
+      "Artist": "Saskia & Geofanny",
+      "Link": "http://www.youtube.com/watch?v=iVUucH34V3E"
+    },
+    {
+      "Name": "Tik-Tik Bunyi Hujan",
+      "Artist": "Ibu Sud",
+      "Link": "http://www.youtube.com/watch?v=BmPBjAjPy-M"
+    }
+  ]
+}

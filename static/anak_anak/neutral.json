@@ -1,0 +1,55 @@
+{
+    "status": "success",
+    "songs": [
+    {
+      "Name": "Lagu Nina Bobo",
+      "Artist": "Hore Kids",
+      "Link": "http://www.youtube.com/watch?v=MaPwA8N2gTU"
+    },
+    {
+      "Name": "Bintang Kecil",
+      "Artist": "A.T. Mahmud",
+      "Link": "http://www.youtube.com/watch?v=K9X_hP3ffs8"
+    },
+    {
+      "Name": "Pelangi-Pelangi",
+      "Artist": "A.T. Mahmud",
+      "Link": "http://www.youtube.com/watch?v=7svVeEhdbE8"
+    },
+    {
+      "Name": "Cicak-Cicak di Dinding",
+      "Artist": "A.T. Mahmud",
+      "Link": "http://www.youtube.com/watch?v=0eCFEYTSIAs"
+    },
+    {
+      "Name": "Nama-Nama Hari",
+      "Artist": "Pak Kasur",
+      "Link": "http://www.youtube.com/watch?v=BrU0FTniaWQ"
+    },
+    {
+      "Name": "Dua Mata Saya",
+      "Artist": "Pak Kasur",
+      "Link": "http://www.youtube.com/watch?v=kGcp7V85sKc"
+    },
+    {
+      "Name": "Kring Kring Ada Sepeda",
+      "Artist": "Pak Kasur",
+      "Link": "http://www.youtube.com/watch?v=VnUQ0DdpuSg"
+    },
+    {
+      "Name": "Menanam Jagung",
+      "Artist": "Ibu Sud",
+      "Link": "http://www.youtube.com/watch?v=CcA5AeqEgrE"
+    },
+    {
+      "Name": "Ambilkan Bulan Bu",
+      "Artist": "A.T. Mahmud",
+      "Link": "http://www.youtube.com/watch?v=nBtFiCM6pJ4"
+    },
+    {
+      "Name": "Satu-Satu Aku Sayang Ibu",
+      "Artist": "Pak Kasur",
+      "Link": "http://www.youtube.com/watch?v=fYBvTFjXWdw"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "songs": [
+    {
+      "Name": "Pulang",
+      "Artist": "Seringai",
+      "Link": "https://www.youtube.com/watch?v=frkkTt82oFo"
+    },
+    {
+      "Name": "Serana",
+      "Artist": "For Revenge",
+      "Link": "https://www.youtube.com/watch?v=bGsMkd8qHWI"
+    },
+    {
+      "Name": "Duka",
+      "Artist": "Last Child",
+      "Link": "https://www.youtube.com/watch?v=8zwz2fVgfVM"
+    },
+    {
+      "Name": "Asa",
+      "Artist": "Féath feat. Rizky Ananda",
+      "Link": "https://www.youtube.com/watch?v=Hn2xg17epkM"
+    },
+    {
+      "Name": "Introvert",
+      "Artist": "Stand Here Alone",
+      "Link": "https://www.youtube.com/watch?v=6phu5vk-1kg"
+    },
+    {
+      "Name": "Nina",
+      "Artist": ".Feast",
+      "Link": "https://www.youtube.com/watch?v=CtRIsakAgjQ"
+    },
+    {
+      "Name": "Biang Lara",
+      "Artist": "Perunggu",
+      "Link": "https://www.youtube.com/watch?v=ZwT30d82nVg"
+    },
+    {
+      "Name": "Gugatan Rakyat Semesta",
+      "Artist": ".Feast",
+      "Link": "https://www.youtube.com/watch?v=FKwyfN4U6hk"
+    },
+    {
+      "Name": "Jadilah Legenda",
+      "Artist": "Superman Is Dead",
+      "Link": "https://www.youtube.com/watch?v=GjxbgdU3Pcs"
+    },
+    {
+      "Name": "Semoga Kau Dineraka",
+      "Artist": "Endank Soekamti",
+      "Link": "https://www.youtube.com/watch?v=Y5fletL8MIw"
+    }
+  ]
+}

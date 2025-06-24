@@ -1,0 +1,55 @@
+{
+    "songs": [
+      {
+        "Name": "Gugur Bunga",
+        "Artist": "Ismail Marzuki",
+        "Link": "https://www.youtube.com/watch?v=abc123xyz"
+      },
+      {
+        "Name": "Melati Suci",
+        "Artist": "Guruh Soekarnoputra",
+        "Link": "https://www.youtube.com/watch?v=def456xyz"
+      },
+      {
+        "Name": "Sepasang Mata Bola",
+        "Artist": "Ismail Marzuki",
+        "Link": "https://www.youtube.com/watch?v=ghi789xyz"
+      },
+      {
+        "Name": "Sarinande",
+        "Artist": "Lagu Daerah Maluku",
+        "Link": "https://www.youtube.com/watch?v=jkl012xyz"
+      },
+      {
+        "Name": "Indonesia Pusaka",
+        "Artist": "Ismail Marzuki",
+        "Link": "https://www.youtube.com/watch?v=mno345xyz"
+      },
+      {
+        "Name": "Wanita",
+        "Artist": "Guruh Soekarnoputra",
+        "Link": "https://www.youtube.com/watch?v=pqr678xyz"
+      },
+      {
+        "Name": "Tanah Airku",
+        "Artist": "Saraswati Soejoed",
+        "Link": "https://www.youtube.com/watch?v=stu901xyz"
+      },
+      {
+        "Name": "Rayuan Pulau Kelapa",
+        "Artist": "Ismail Marzuki",
+        "Link": "https://www.youtube.com/watch?v=vwx234xyz"
+      },
+      {
+        "Name": "Di Bawah Sinar Bulan Purnama",
+        "Artist": "R. Maladi",
+        "Link": "https://www.youtube.com/watch?v=yzA567xyz"
+      },
+      {
+        "Name": "Selendang Sutera",
+        "Artist": "Ismail Marzuki",
+        "Link": "https://www.youtube.com/watch?v=bcd890xyz"
+      }
+    ]
+  }
+  

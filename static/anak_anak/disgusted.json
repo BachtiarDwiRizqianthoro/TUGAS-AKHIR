@@ -1,0 +1,55 @@
+{
+    "status": "success",
+    "songs": [
+    {
+      "Name": "Lagu Cuci Tangan",
+      "Artist": "Lagu Anak Terbaik",
+      "Link": "http://www.youtube.com/watch?v=x1W3EHVRxds"
+    },
+    {
+      "Name": "Lagu Gosok Gigi",
+      "Artist": "LiaChaCha Bahasa Indonesia",
+      "Link": "http://www.youtube.com/watch?v=bsEaUfYG1vE"
+    },
+    {
+      "Name": "Lagu Mandi",
+      "Artist": "CoComelon Bahasa Indonesia",
+      "Link": "http://www.youtube.com/watch?v=vB50KVfvHM0"
+    },
+    {
+      "Name": "Jangan Buang Sampah Sembarangan",
+      "Artist": "GNP Music",
+      "Link": "http://www.youtube.com/watch?v=20iz0XSeBd4"
+    },
+    {
+      "Name": "Aku Anak Sehat",
+      "Artist": "Olivia Susanto",
+      "Link": "http://www.youtube.com/watch?v=vsAvj6GUWwU"
+    },
+    {
+      "Name": "Bangun Tidur",
+      "Artist": "GNP Music",
+      "Link": "http://www.youtube.com/watch?v=5Y8Yw14Er2s"
+    },
+    {
+      "Name": "Sakit Perut Makan Makanan Tidak Sehat",
+      "Artist": "BabyBus - Cerita & Lagu Anak-anak",
+      "Link": "http://www.youtube.com/watch?v=kx-eMPH27Ys"
+    },
+    {
+      "Name": "Si Kuman Nakal",
+      "Artist": "Maissy Pramaisshela Fans Club",
+      "Link": "http://www.youtube.com/watch?v=lGcUXenI7no"
+    },
+    {
+      "Name": "Potong Kuku",
+      "Artist": "BaLiTa - Baba Lili Tata",
+      "Link": "http://www.youtube.com/watch?v=LyMciz-af8Y"
+    },
+    {
+      "Name": "Ya Ya Lagu Sayuran",
+      "Artist": "CoComelon Bahasa Indonesia",
+      "Link": "http://www.youtube.com/watch?v=5heG_BoXiGI"
+    }
+  ]
+}

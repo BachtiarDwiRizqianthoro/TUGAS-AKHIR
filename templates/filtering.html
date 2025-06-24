@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtering - Moodify</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- SweetAlert2 Library -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <style>
+        body {
+            background: url('/static/bg.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 10px 20px;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav .logo {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav .logo img {
+            width: 40px;
+            margin-right: 10px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+        }
+        nav ul li a:hover, nav ul li a.active {
+            color: #ffd700;
+        }
+        .content {
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        .form-container {
+            background: #fff;
+            color: #333;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+            width: 90%; /* Lebarkan form */
+            max-width: 800px; /* Batas maksimal lebar */
+        }
+        .form-control {
+            width: 100%;
+        }
+        .table a.btn {
+            display: block;
+            width: 50%; /* Agar tombol sejajar */
+            text-align: center;
+          } 
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="/static/img2.png" alt="Logo"><span>Moodify</span>
+        </div>
+        <ul>
+            <li><a href="{{ url_for('home') }}" class="{% if request.endpoint == 'home' %}active{% endif %}">Home</a></li>
+            <li><a href="{{ url_for('detect') }}" class="{% if request.endpoint == 'detect' %}active{% endif %}">Detect</a></li>
+            <li><a href="{{ url_for('filtering') }}" class="{% if request.endpoint == 'filter' %}active{% endif %}">Filtering</a></li>
+            <li><a href="{{ url_for('about') }}" class="{% if request.endpoint == 'about' %}active{% endif %}">Tentang</a></li>
+            <li><a href="{{ url_for('profile') }}" class="{% if request.endpoint == 'profile' %}active{% endif %}">Profile</a></li>
+            <li><a href="{{ url_for('logout') }}" id="logout-link">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <div class="form-container mt-5">
+            <h2 class="text-center mb-4">Rekomendasi Lagu Sesuai Perasaan</h2>
+            <form id="filter-form">
+                <label for="emotion" class="form-label">Pilihan Lagu Sesuai Mood:</label>
+                <select id="emotion" class="form-control">
+                    {% for key, value in emotion_dict.items() %}
+                        <option value="{{ key }}">{{ value }}</option>
+                    {% endfor %}
+                </select>
+                <button type="submit" class="btn btn-primary w-100 mt-3">Cari</button>
+            </form>
+            
+            <p id="searched-text" class="text-center mt-3" style="display: none;">Ini adalah lagu yang ditelusuri</p>
+            
+            <!-- Tabel Rekomendasi Lagu -->
+        <div class="table-container mt-4" >
+            <table class="table table-striped table-hover table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Lagu</th>
+                        <th>Artis</th>
+                        <th>Link YouTube</th>
+                    </tr>
+                </thead>
+                <tbody id="song-table-body">
+                    <tr>
+                        <td colspan="4" class="text-center">Belum ada lagu</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </div>
+
+    <script>
+        // Fungsi untuk mendapatkan parameter dari URL
+        function getUrlParameter(name) {
+            name = name.replace(/[\[\]]/g, '\\$&');
+            const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+            const results = regex.exec(window.location.search);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+        // Ambil parameter emosi dari URL jika ada
+        const emotionParam = getUrlParameter('emotion');
+        
+        // Jika ada parameter emosi, langsung lakukan pencarian
+        if (emotionParam) {
+            // Set nilai dropdown sesuai parameter
+            document.getElementById('emotion').value = emotionParam;
+            
+            // Trigger submit form
+            document.getElementById("filter-form").dispatchEvent(new Event('submit'));
+        }
+
+        document.getElementById("filter-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            let emotion_id = document.getElementById("emotion").value;
+        
+            fetch("/filter", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ "emotion_id": emotion_id })
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log("Response JSON:", data);
+            
+                let songTableBody = document.getElementById("song-table-body");
+                songTableBody.innerHTML = "";
+            
+                if (data.songs && data.songs.length > 0) {
+                    data.songs.forEach((song, index) => {
+                        let row = `<tr>
+                            <td>${index + 1}</td>
+                            <td>${song.Name}</td>
+                            <td>${song.Artist}</td>
+                            <td>
+                                <a href="${song.Link}" target="_blank" class="btn btn-primary btn-sm d-block mx-auto">
+                                  Tonton
+                                </a>
+                            </td>
+                        </tr>`;
+                        songTableBody.innerHTML += row;
+                    });
+            
+                    document.getElementById("searched-text").style.display = "block";
+            
+                } else {
+                    songTableBody.innerHTML = "<tr><td colspan='4' class='text-center'>Tidak ada rekomendasi yang tersedia untuk emosi ini.</td></tr>";
+                    document.getElementById("searched-text").style.display = "none";
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                Swal.fire({
+                    icon: "error",
+                    title: "Error",
+                    text: "Terjadi kesalahan saat memuat rekomendasi."
+                });
+            });
+        });
+    </script>
+
+    <!-- ... (bagian script lainnya tetap sama) ... -->
+</body>
+</html>

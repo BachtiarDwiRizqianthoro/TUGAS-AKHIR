@@ -1,0 +1,55 @@
+{
+    "status": "success",
+    "songs": [
+    {
+      "Name": "Abang Tukang Bakso",
+      "Artist": "Suzan & Kak Ria Enes",
+      "Link": "https://www.youtube.com/watch?v=hE0hPEX-PQQ"
+    },
+    {
+      "Name": "Naik Delman",
+      "Artist": "Ibu Sud",
+      "Link": "http://www.youtube.com/watch?v=FBooi67nrp8"
+    },
+    {
+      "Name": "Di Sini Senang Di Sana Senang",
+      "Artist": "NN",
+      "Link": "http://www.youtube.com/watch?v=O35liu-iZyU"
+    },
+    {
+      "Name": "Kalau Kau Suka Hati",
+      "Artist": "NN",
+      "Link": "http://www.youtube.com/watch?v=IWcULPjXcnM"
+    },
+    {
+      "Name": "Potong Bebek Angsa",
+      "Artist": "Pak Kasur",
+      "Link": "http://www.youtube.com/watch?v=Hojqg6ZrQwo"
+    },
+    {
+      "Name": "Naik Kereta Api",
+      "Artist": "Ibu Sud",
+      "Link": "http://www.youtube.com/watch?v=d1gwZLWXiqo"
+    },
+    {
+      "Name": "Balonku",
+      "Artist": "A.T. Mahmud",
+      "Link": "http://www.youtube.com/watch?v=Zt5qlVxVYls"
+    },
+    {
+      "Name": "Lihat Kebunku",
+      "Artist": "Ibu Sud",
+      "Link": "http://www.youtube.com/watch?v=snnSO03aoG4"
+    },
+    {
+      "Name": "Anak Gembala",
+      "Artist": "A.T. Mahmud",
+      "Link": "http://www.youtube.com/watch?v=gxHrHlZbLpM"
+    },
+    {
+      "Name": "Aku Seorang Kapiten",
+      "Artist": "Ibu Sud",
+      "Link": "http://www.youtube.com/watch?v=BUc2swDmObk"
+    }
+  ]
+}

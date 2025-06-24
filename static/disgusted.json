@@ -1,0 +1,110 @@
+{
+  "status": "success",
+  "songs": [
+    {
+      "Name": "Lagu Cinta",
+      "Artist": "Raisa",
+      "Link": "https://example.com/lagu-cinta"
+    },
+    {
+      "Name": "Kangen",
+      "Artist": "Dewa 19",
+      "Link": "https://www.youtube.com/watch?v=CTkdmwOYUpg"
+    },
+    {
+      "Name": "Separuh Aku",
+      "Artist": "NOAH",
+      "Link": "https://www.youtube.com/watch?v=iAP_EyZMvw0"
+    },
+    {
+      "Name": "Bintang di Surga",
+      "Artist": "Peterpan",
+      "Link": "https://www.youtube.com/watch?v=334Btj_U6jg"
+    },
+    {
+      "Name": "Kenangan Terindah",
+      "Artist": "Samsons",
+      "Link": "https://www.youtube.com/watch?v=-yG8j2MGOyY"
+    },
+    {
+      "Name": "Mungkin Nanti",
+      "Artist": "Peterpan",
+      "Link": "https://www.youtube.com/watch?v=I4URpPDrP1Y"
+    },
+    {
+      "Name": "Ayah",
+      "Artist": "Rinto Harahap",
+      "Link": "https://www.youtube.com/watch?v=znNTOkeOeeA"
+    },
+    {
+      "Name": "Cinta Mati",
+      "Artist": "Agnes Monica",
+      "Link": "https://www.youtube.com/watch?v=WPJ8CDZ1_yQ"
+    },
+    {
+      "Name": "Bukan Cinta Biasa",
+      "Artist": "Afgan",
+      "Link": "https://www.youtube.com/watch?v=EJ_IVFguVPQ"
+    },
+    {
+      "Name": "Hapus Aku",
+      "Artist": "Nidji",
+      "Link": "https://www.youtube.com/watch?v=NVLuEiNBEec"
+    },
+    {
+      "Name": "Deg-degan",
+      "Artist": "Isyana Sarasvati",
+      "Link": ""
+    },
+    {
+      "Name": "Kali Kedua",
+      "Artist": "Raisa",
+      "Link": "https://www.youtube.com/watch?v=Lr1Ls5Xs4wQ"
+    },
+    {
+      "Name": "Anganku Anganmu",
+      "Artist": "Raisa & Isyana Sarasvati",
+      "Link": "https://www.youtube.com/watch?v=vV6fjXiCMEo"
+    },
+    {
+      "Name": "Peri Cintaku",
+      "Artist": "Marcell",
+      "Link": "https://www.youtube.com/watch?v=eltxPHhnMRc"
+    },
+    {
+      "Name": "Dia",
+      "Artist": "Anji",
+      "Link": "https://www.youtube.com/watch?v=WfVU18gRLU0"
+    },
+    {
+      "Name": "Bahagia",
+      "Artist": "GAC",
+      "Link": "https://www.youtube.com/watch?v=zDHOW9PdQYE"
+    },
+    {
+      "Name": "Melompat Lebih Tinggi",
+      "Artist": "Sheila on 7",
+      "Link": "https://www.youtube.com/watch?v=ab9LL48USIU"
+    },
+    {
+      "Name": "Bila Rasaku Ini Rasamu",
+      "Artist": "Kerispatih",
+      "Link": "https://www.youtube.com/watch?v=pWdA8PN-7xY"
+    },
+    {
+      "Name": "Ku Tak Bisa",
+      "Artist": "Slank",
+      "Link": "https://www.youtube.com/watch?v=AC_FRfFv9tI"
+    },
+    {
+      "Name": "Cinta Itu Buta",
+      "Artist": "Radja",
+      "Link": "https://www.youtube.com/watch?v=vXU_IaMrB7c"
+    },
+    {
+      "Name": "Aku Lelakimu",
+      "Artist": "Virgoun",
+      "Link": "https://www.youtube.com/watch?v=QL_MFw3XNtM"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Kita",
+            "Artist": "Sheila On 7",
+            "Link": "https://www.youtube.com/watch?v=kkSw7D8qLRE"
+        },
+        {
+            "Name": "Cukup Siti Nurbaya",
+            "Artist": "Dewa 19",
+            "Link": "https://www.youtube.com/watch?v=TEo4ZxiwZ3w"
+        },
+        {
+            "Name": "Lumpuhkan Ingatanku",
+            "Artist": "Geisha",
+            "Link": "https://www.youtube.com/watch?v=bRRLArFJIm8"
+        },
+        {
+            "Name": "Kangen",
+            "Artist": "Dewa 19",
+            "Link": "https://www.youtube.com/watch?v=aG5Ig9Ip6po"
+        },
+        {
+            "Name": "Hilang",
+            "Artist": "Ungu",
+            "Link": "https://www.youtube.com/watch?v=hnJWy7IUt1M"
+        },
+        {
+            "Name": "Berlayar",
+            "Artist": "Kotak",
+            "Link": "https://www.youtube.com/watch?v=1Aj2Y6P7HhU"
+        },
+        {
+            "Name": "Kita Yang Beda",
+            "Artist": "Virzha",
+            "Link": "https://www.youtube.com/watch?v=Qj_Ff1eYluY"
+        },
+        {
+            "Name": "Kupu-Kupu Malam",
+            "Artist": "Noah",
+            "Link": "https://www.youtube.com/watch?v=FZ5oq2sVE1Y"
+        },
+        {
+            "Name": "Roman Picisan",
+            "Artist": "Dewa 19",
+            "Link": "https://www.youtube.com/watch?v=qJ_KFgCFsyg"
+        },
+        {
+            "Name": "Bintang di Surga",
+            "Artist": "Peterpan",
+            "Link": "https://www.youtube.com/watch?v=ASxhIFxTO7I"
+        }
+    ]
+}

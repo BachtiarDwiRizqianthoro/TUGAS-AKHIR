@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Login</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <style>
+    body {
+      background: url('/static/img6.jpg') center/cover no-repeat;
+      color: white;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* Navbar */
+    nav {
+      position: fixed;
+      top: -80px;
+      left: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      padding: 10px 20px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+      animation: slideDown 1s ease forwards;
+    }
+
+    @keyframes slideDown {
+      to {
+        top: 0;
+      }
+    }
+
+    nav .logo {
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav .logo img {
+      width: 40px;
+      margin-right: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      color: #ffd700;
+    }
+
+    /* Login Form */
+    .login-container {
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+      width: 100%;
+      max-width: 400px;
+      backdrop-filter: blur(10px);
+      margin: 120px auto 40px;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .login-container h2 {
+      margin-bottom: 20px;
+      font-size: 28px;
+      text-align: center;
+    }
+
+    .login-container label {
+      font-size: 16px;
+    }
+
+    .login-container .password-container {
+      position: relative;
+    }
+
+    .login-container input {
+      width: 100%;
+      padding: 12px;
+      padding-right: 40px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 16px;
+      color: black;
+      transition: box-shadow 0.3s, transform 0.3s;
+    }
+
+    .login-container input:focus {
+      box-shadow: 0 0 8px #fff;
+      transform: scale(1.02);
+    }
+
+    .toggle-icon {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      background: #050088;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .login-container button:hover {
+      background: #1a1aff;
+      transform: scale(1.03);
+    }
+
+    /* Style untuk link "Daftar di sini" */
+    .login-container p a {
+      color: #e6adad; /* Warna asli untuk link "Daftar di sini" */
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    .login-container p a:hover {
+      text-decoration: underline;
+      color: yellow;
+    }
+
+    /* Style spesifik untuk link "Lupa Password?" */
+    .login-container .forgot-password-link a {
+      color: #ffffff; /* Warna putih untuk link "Lupa Password?" */
+      text-decoration: none;
+      font-weight: 600; /* Anda bisa menyesuaikan font-weight jika perlu */
+      transition: color 0.3s;
+    }
+
+    .login-container .forgot-password-link a:hover {
+      text-decoration: underline;
+      color: #ffd700; /* Warna kuning saat hover, bisa disesuaikan */
+    }
+
+    .form-footer {
+      text-align: center;
+    }
+
+    .text-end { /* Style untuk alignment ke kanan */
+        text-align: right !important;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">
+      <img src="/static/img2.png" alt="Logo" />
+      <span>Moodify</span>
+    </div>
+    <ul>
+      <li><a href="{{ url_for('home') }}">Home</a></li>
+    </ul>
+  </nav>
+
+  <div class="login-container">
+    <h2>Login</h2>
+    {% if error %}
+    <div class="alert alert-danger">{{ error }}</div>
+    {% endif %}
+    <form method="post" action="{{ url_for('login') }}">
+      <div class="mb-3">
+        <label for="username">Nama Pengguna</label>
+        <input type="text" id="username" name="username" class="form-control" required>
+      </div>
+      <div class="mb-3 password-container">
+        <label for="password">Kata Sandi</label>
+        <input type="password" id="password" name="password" class="form-control" required>
+        <i class="bi bi-eye-slash toggle-icon" id="togglePassword"></i>
+      </div>
+      <div class="mb-3 text-end forgot-password-link">
+        <a href="{{ url_for('forgot_password') }}">Lupa Kata Sandi?</a>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+    <p class="form-footer mt-3">Belum punya akun? <a href="{{ url_for('register') }}">Daftar di sini</a>.</p>
+  </div>
+
+  <script>
+    const flashError = "{{ get_flashed_messages(category_filter=['error'])[0] if get_flashed_messages(category_filter=['error']) else '' }}";
+    const flashSuccess = "{{ get_flashed_messages(category_filter=['success'])[0] if get_flashed_messages(category_filter=['success']) else '' }}";
+
+    if (flashError) {
+      Swal.fire({
+        icon: "error",
+        title: "Terjadi Kesalahan",
+        text: flashError,
+        confirmButtonColor: "#d33"
+      });
+    }
+
+    if (flashSuccess) {
+      Swal.fire({
+        icon: "success",
+        title: "Berhasil!",
+        text: flashSuccess,
+        confirmButtonColor: "#28a745"
+      });
+    }
+
+    // Toggle show/hide password
+    document.getElementById("togglePassword").addEventListener("click", function () {
+      const passwordInput = document.getElementById("password");
+      const icon = this;
+      const type = passwordInput.getAttribute("type") === "password" ? "text" : "password";
+      passwordInput.setAttribute("type", type);
+      icon.classList.toggle("bi-eye");
+      icon.classList.toggle("bi-eye-slash");
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+{
+    "songs": [
+      {
+        "Name": "Cukup Siti Nurbaya",
+        "Artist": "Dewa 19",
+        "Link": "https://www.youtube.com/watch?v=example1"
+      },
+      {
+        "Name": "Laskar Pelangi",
+        "Artist": "Nidji",
+        "Link": "https://www.youtube.com/watch?v=example2"
+      },
+      {
+        "Name": "Pelangi di Matamu",
+        "Artist": "Jamrud",
+        "Link": "https://www.youtube.com/watch?v=example3"
+      },
+      {
+        "Name": "Mimpi yang Sempurna",
+        "Artist": "Peterpan",
+        "Link": "https://www.youtube.com/watch?v=example4"
+      },
+      {
+        "Name": "Bendera",
+        "Artist": "Cokelat",
+        "Link": "https://www.youtube.com/watch?v=example5"
+      },
+      {
+        "Name": "Separuh Nafas",
+        "Artist": "Dewa 19",
+        "Link": "https://www.youtube.com/watch?v=example6"
+      },
+      {
+        "Name": "Sahabat Sejati",
+        "Artist": "Sheila on 7",
+        "Link": "https://www.youtube.com/watch?v=example7"
+      },
+      {
+        "Name": "Aku Milikmu",
+        "Artist": "Dewa 19",
+        "Link": "https://www.youtube.com/watch?v=example8"
+      },
+      {
+        "Name": "Kita",
+        "Artist": "Sheila on 7",
+        "Link": "https://www.youtube.com/watch?v=example9"
+      },
+      {
+        "Name": "Kamulah Satu-Satunya",
+        "Artist": "Dewa 19",
+        "Link": "https://www.youtube.com/watch?v=example10"
+      }
+    ]
+  }
+  

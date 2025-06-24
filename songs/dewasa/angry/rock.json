@@ -1,0 +1,64 @@
+{
+    "songs": [
+        {
+            "Name": "Laskar Cinta",
+            "Album": "Laskar Cinta",
+            "Artist": "Dewa 19",
+            "Link": "https://www.youtube.com/watch?v=fk3a40GwbDY"
+        },
+        {
+            "Name": "Nagih",
+            "Album": "99% Aku Sudah Gila",
+            "Artist": "Slank",
+            "Link": "https://www.youtube.com/watch?v=mz3LoOOhKMU"
+        },
+        {
+            "Name": "Muka Tebal",
+            "Album": "Mata Hati Telinga",
+            "Artist": "Superman Is Dead",
+            "Link": "https://www.youtube.com/watch?v=B9rk-dspBjA"
+        },
+        {
+            "Name": "Cukup Siti Nurbaya",
+            "Album": "Taman Langit",
+            "Artist": "Dewa 19",
+            "Link": "https://www.youtube.com/watch?v=4bSDEwOrHKE"
+        },
+        {
+            "Name": "Samar Banyangan",
+            "Album": "Tritura",
+            "Artist": "Nicky Astria",
+            "Link": "https://www.youtube.com/watch?v=QL-E5uCeYp8"
+        },
+        {
+            "Name": "Ada Apa Denganmu",
+            "Album": "Hari Yang Cerah",
+            "Artist": "Peterpan",
+            "Link": "https://www.youtube.com/watch?v=eyEWCA57Dgo"
+        },
+        {
+            "Name": "Tentang Hidup",
+            "Album": "Album 2007",
+            "Artist": "Kotak",
+            "Link": "https://www.youtube.com/watch?v=q7lf6v4tWk0"
+        },
+        {
+            "Name": "Kamu Harus Cepat Pulang",
+            "Album": "OST. Alexandria",
+            "Artist": "Slank",
+            "Link": "https://www.youtube.com/watch?v=Sg6NhvewWmM"
+        },
+        {
+            "Name": "Luka Disini",
+            "Album": "OST. Alexandria",
+            "Artist": "Ungu",
+            "Link": "https://www.youtube.com/watch?v=p8M4XjpGzu4"
+        },
+        {
+            "Name": "Beraksi",
+            "Album": "Rock N Love",
+            "Artist": "Kotak",
+            "Link": "https://www.youtube.com/watch?v=qAc8fQkiaLM"
+        }
+    ]
+}

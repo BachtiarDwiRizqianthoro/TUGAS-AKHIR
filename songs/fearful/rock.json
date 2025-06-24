@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Bayang Hitam",
+            "Artist": "Slank",
+            "Link": "https://www.youtube.com/watch?v=abcd1234"
+        },
+        {
+            "Name": "Mimpi Buruk",
+            "Artist": "Burgerkill",
+            "Link": "https://www.youtube.com/watch?v=efgh5678"
+        },
+        {
+            "Name": "Gelisah Malam",
+            "Artist": "Jamrud",
+            "Link": "https://www.youtube.com/watch?v=ijkl9101"
+        },
+        {
+            "Name": "Suara Kegelapan",
+            "Artist": "Boomerang",
+            "Link": "https://www.youtube.com/watch?v=mnop1121"
+        },
+        {
+            "Name": "Dendam Abadi",
+            "Artist": "Edane",
+            "Link": "https://www.youtube.com/watch?v=qrst3141"
+        },
+        {
+            "Name": "Bisikan Setan",
+            "Artist": "God Bless",
+            "Link": "https://www.youtube.com/watch?v=uvwx5161"
+        },
+        {
+            "Name": "Kelam dalam Jiwa",
+            "Artist": "Powerslaves",
+            "Link": "https://www.youtube.com/watch?v=yzab7181"
+        },
+        {
+            "Name": "Labirin Kegelapan",
+            "Artist": "Rif",
+            "Link": "https://www.youtube.com/watch?v=cdef9202"
+        },
+        {
+            "Name": "Rahasia Malam",
+            "Artist": "Kotak",
+            "Link": "https://www.youtube.com/watch?v=ghij2324"
+        },
+        {
+            "Name": "Misteri Senja",
+            "Artist": "Netral",
+            "Link": "https://www.youtube.com/watch?v=klmn3434"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Pelangi-Pelangi",
+            "Artist": "AT Mahmud",
+            "Link": "https://youtu.be/lwD5UgrI3_k?si=j8j6eNqRshCVp5bF"
+        },
+        {
+            "Name": "Cicak-Cicak di Dinding",
+            "Artist": "Lagu Daerah",
+            "Link": "https://youtu.be/8_xrD2lSOGg?si=nnvhSoszsqIODzUg"
+        },
+        {
+            "Name": "Balonku",
+            "Artist": "AT Mahmud",
+            "Link": "https://youtu.be/ZOmo6so-nA8?si=9KeOEUFB73fT0ZGp"
+        },
+        {
+            "Name": "Naik Delman",
+            "Artist": "Ibu Sud",
+            "Link": "https://www.youtube.com/watch?v=jXbSCdh8vA4"
+          },
+          {
+            "Name": "Bintang Kecil",
+            "Artist": "Daljono",
+            "Link": "https://www.youtube.com/watch?v=IZyW-4nqKz8"
+          },
+          {
+            "Name": "Lihat Kebunku",
+            "Artist": "Ibu Sud",
+            "Link": "https://www.youtube.com/watch?v=P0IvlHyHpec"
+          },
+          {
+            "Name": "Burung Kakatua",
+            "Artist": "Lagu Daerah",
+            "Link": "https://www.youtube.com/watch?v=x3xxXPfs3Sk"
+          },
+          {
+            "Name": "Ambilkan Bulan",
+            "Artist": "AT Mahmud",
+            "Link": "https://www.youtube.com/watch?v=ugMWz_KUoh8"
+          },
+          {
+            "Name": "Topi Saya Bundar",
+            "Artist": "Pak Kasur",
+            "Link": "https://www.youtube.com/watch?v=nFD781-9l4A"
+          },
+          {
+            "Name": "Anak Gembala",
+            "Artist": "AT Mahmud",
+            "Link": "https://www.youtube.com/watch?v=3VlYgPjRRQY"
+          }
+        ]
+      }

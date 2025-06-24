@@ -1,0 +1,64 @@
+{
+    "songs": [
+        {
+            "Name": "Goyang Jempol",
+            "Album": "Dangdut Hitz",
+            "Artist": "Siti Badriah",
+            "Link": "https://www.youtube.com/watch?v=example1"
+        },
+        {
+            "Name": "Jangan Tinggalkan Aku",
+            "Album": "Cinta dan Duka",
+            "Artist": "Rhoma Irama",
+            "Link": "https://www.youtube.com/watch?v=example2"
+        },
+        {
+            "Name": "Aku Dilahirkan Untuk Siapa",
+            "Album": "Lagu Galau",
+            "Artist": "Evie Tamala",
+            "Link": "https://www.youtube.com/watch?v=example3"
+        },
+        {
+            "Name": "Bang Jono",
+            "Album": "Single Hits",
+            "Artist": "Zaskia Gotik",
+            "Link": "https://www.youtube.com/watch?v=example4"
+        },
+        {
+            "Name": "Gelang Alit",
+            "Album": "Koleksi Dangdut",
+            "Artist": "Nella Kharisma",
+            "Link": "https://www.youtube.com/watch?v=example5"
+        },
+        {
+            "Name": "Sakitnya Tuh Di Sini",
+            "Album": "Single Hits",
+            "Artist": "Cita Citata",
+            "Link": "https://www.youtube.com/watch?v=example6"
+        },
+        {
+            "Name": "Goyang Nasi Padang",
+            "Album": "Dangdut Viral",
+            "Artist": "Project Pop",
+            "Link": "https://www.youtube.com/watch?v=example7"
+        },
+        {
+            "Name": "Luka Lama",
+            "Album": "Kenangan Dangdut",
+            "Artist": "Elvy Sukaesih",
+            "Link": "https://www.youtube.com/watch?v=example8"
+        },
+        {
+            "Name": "Cinta Segitiga",
+            "Album": "Lagu Galau",
+            "Artist": "Iis Dahlia",
+            "Link": "https://www.youtube.com/watch?v=example9"
+        },
+        {
+            "Name": "Kandas",
+            "Album": "Lagu Galau",
+            "Artist": "Evie Tamala & Imam S Arifin",
+            "Link": "https://www.youtube.com/watch?v=example10"
+        }
+    ]
+}

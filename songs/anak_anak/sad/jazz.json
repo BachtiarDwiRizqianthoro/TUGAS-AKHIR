@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "What a Wonderful World",
+            "Artist": "Louis Armstrong",
+            "Link": "https://www.youtube.com/watch?v=CWzrABouyeE"
+        },
+        {
+            "Name": "Strange Fruit",
+            "Artist": "Billie Holiday",
+            "Link": "https://www.youtube.com/watch?v=Web007rzSOI"
+        },
+        {
+            "Name": "Blue Moon",
+            "Artist": "Ella Fitzgerald",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        },
+        {
+            "Name": "Autumn Leaves",
+            "Artist": "Nat King Cole",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        },
+        {
+            "Name": "Summertime",
+            "Artist": "Louis Armstrong & Ella Fitzgerald",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        },
+        {
+            "Name": "God Bless the Child",
+            "Artist": "Billie Holiday",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        },
+        {
+            "Name": "Lullaby of Birdland",
+            "Artist": "Ella Fitzgerald",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        },
+        {
+            "Name": "Cry Me a River",
+            "Artist": "Ella Fitzgerald",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        },
+        {
+            "Name": "Misty",
+            "Artist": "Ella Fitzgerald",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        },
+        {
+            "Name": "Goodnight, My Love",
+            "Artist": "Ella Fitzgerald",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "songs": [
+      {
+        "Name": "Kopi Dangdut",
+        "Artist": "Fahmi Shahab",
+        "Link": "https://www.youtube.com/watch?v=example1"
+      },
+      {
+        "Name": "Oplosan",
+        "Artist": "Nella Kharisma",
+        "Link": "https://www.youtube.com/watch?v=example2"
+      },
+      {
+        "Name": "Jaran Goyang",
+        "Artist": "Nella Kharisma",
+        "Link": "https://www.youtube.com/watch?v=example3"
+      },
+      {
+        "Name": "Goyang Dumang",
+        "Artist": "Cita Citata",
+        "Link": "https://www.youtube.com/watch?v=example4"
+      },
+      {
+        "Name": "Bang Jono",
+        "Artist": "Zaskia Gotik",
+        "Link": "https://www.youtube.com/watch?v=example5"
+      },
+      {
+        "Name": "Madu Merah",
+        "Artist": "Ayu Ting Ting",
+        "Link": "https://www.youtube.com/watch?v=example6"
+      },
+      {
+        "Name": "Kereta Malam",
+        "Artist": "Rhoma Irama",
+        "Link": "https://www.youtube.com/watch?v=example7"
+      },
+      {
+        "Name": "Penasaran",
+        "Artist": "Rhoma Irama",
+        "Link": "https://www.youtube.com/watch?v=example8"
+      },
+      {
+        "Name": "Sik Asik",
+        "Artist": "Ayu Ting Ting",
+        "Link": "https://www.youtube.com/watch?v=example9"
+      },
+      {
+        "Name": "Janda Bodong",
+        "Artist": "Rita Sugiarto",
+        "Link": "https://www.youtube.com/watch?v=example10"
+      }
+    ]
+  }
+  

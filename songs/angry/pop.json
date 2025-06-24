@@ -1,0 +1,64 @@
+{
+    "songs": [
+        {
+            "Name": "Berharap Tak Berpisah",
+            "Album": "Cinta",
+            "Artist": "Reza Artamevia",
+            "Link": "https://www.youtube.com/watch?v=example1"
+        },
+        {
+            "Name": "Cukup Siti Nurbaya",
+            "Album": "Sebuah Nama Sebuah Cerita",
+            "Artist": "Dewa 19",
+            "Link": "https://www.youtube.com/watch?v=example2"
+        },
+        {
+            "Name": "Bukan Cinta Biasa",
+            "Album": "Rossa",
+            "Artist": "Rossa",
+            "Link": "https://www.youtube.com/watch?v=example3"
+        },
+        {
+            "Name": "Pupus",
+            "Album": "Cintailah Cinta",
+            "Artist": "Dewa 19",
+            "Link": "https://www.youtube.com/watch?v=example4"
+        },
+        {
+            "Name": "Hampa",
+            "Album": "Badai Pasti Berlalu",
+            "Artist": "Ari Lasso",
+            "Link": "https://www.youtube.com/watch?v=example5"
+        },
+        {
+            "Name": "Selamat Tinggal",
+            "Album": "OST Dealova",
+            "Artist": "Terry",
+            "Link": "https://www.youtube.com/watch?v=example6"
+        },
+        {
+            "Name": "Kamulah Satu-Satunya",
+            "Album": "SHEILA ON 7",
+            "Artist": "Sheila On 7",
+            "Link": "https://www.youtube.com/watch?v=example7"
+        },
+        {
+            "Name": "Kisah Klasik Untuk Masa Depan",
+            "Album": "07 Des",
+            "Artist": "Sheila On 7",
+            "Link": "https://www.youtube.com/watch?v=example8"
+        },
+        {
+            "Name": "Tak Bisa Memiliki",
+            "Album": "OST Dealova",
+            "Artist": "Samsons",
+            "Link": "https://www.youtube.com/watch?v=example9"
+        },
+        {
+            "Name": "Menghapus Jejakmu",
+            "Album": "Laskar Pelangi",
+            "Artist": "Noah",
+            "Link": "https://www.youtube.com/watch?v=example10"
+        }
+    ]
+}

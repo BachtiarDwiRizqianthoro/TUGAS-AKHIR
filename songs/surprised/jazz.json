@@ -1,0 +1,55 @@
+{
+    "songs": [
+      {
+        "Name": "Sewindu",
+        "Artist": "Tulus",
+        "Link": "https://www.youtube.com/watch?v=abcd1234"
+      },
+      {
+        "Name": "Sepatu",
+        "Artist": "Tulus",
+        "Link": "https://www.youtube.com/watch?v=efgh5678"
+      },
+      {
+        "Name": "Sudah",
+        "Artist": "Ardhito Pramono",
+        "Link": "https://www.youtube.com/watch?v=hijk9012"
+      },
+      {
+        "Name": "Pulang",
+        "Artist": "Andien",
+        "Link": "https://www.youtube.com/watch?v=lmno3456"
+      },
+      {
+        "Name": "Aku Ingin",
+        "Artist": "Indra Lesmana",
+        "Link": "https://www.youtube.com/watch?v=pqrs7890"
+      },
+      {
+        "Name": "Hati-Hati di Jalan",
+        "Artist": "Tulus",
+        "Link": "https://www.youtube.com/watch?v=stuv1234"
+      },
+      {
+        "Name": "Primadona",
+        "Artist": "Adikara",
+        "Link": "https://www.youtube.com/watch?v=wxyz5678"
+      },
+      {
+        "Name": "Foto Kita Blur",
+        "Artist": "Sal Priadi",
+        "Link": "https://www.youtube.com/watch?v=abcd9012"
+      },
+      {
+        "Name": "Nurlela",
+        "Artist": "Bing Slamet",
+        "Link": "https://www.youtube.com/watch?v=efgh3456"
+      },
+      {
+        "Name": "Kisah Dari Selatan Jakarta",
+        "Artist": "White Shoes & The Couples Company",
+        "Link": "https://www.youtube.com/watch?v=hijk7890"
+      }
+    ]
+  }
+  

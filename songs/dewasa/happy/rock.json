@@ -1,0 +1,54 @@
+{
+  "songs": [
+    {
+      "Name": "Melompat Lebih Tinggi",
+      "Artist": "Sheila On 7",
+      "Link": "https://www.youtube.com/watch?v=ab9LL48USIU"
+    },
+    {
+      "Name": "Garuda di Dadaku",
+      "Artist": "Netral",
+      "Link": "https://www.youtube.com/watch?v=DYzwDV6Bxyk"
+    },
+    {
+      "Name": "Bendera",
+      "Artist": "Cokelat",
+      "Link": "https://www.youtube.com/watch?v=kLqToCKVnzI"
+    },
+    {
+      "Name": "Rock Bergema",
+      "Artist": "Jamrud",
+      "Link": "https://www.youtube.com/watch?v=_46j87EHmtg"
+    },
+    {
+      "Name": "Kita Selamanya",
+      "Artist": "Bondan & Fade 2 Black",
+      "Link": "https://youtu.be/8KQ93aW7YY4?si=ZW4TtDnu21vCDUBn"
+    },
+    {
+      "Name": "Selamat Pagi",
+      "Artist": "D'Cinnamons",
+      "Link": "https://youtu.be/1I7zpCWyMyg?si=zvFeqVu_mBEPFLmK"
+    },
+    {
+      "Name": "Laskar Pelangi",
+      "Artist": "Nidji",
+      "Link": "https://www.youtube.com/watch?v=fO1iJqBdXrc"
+    },
+    {
+      "Name": "Hari Yang Cerah",
+      "Artist": "Peterpan",
+      "Link": "https://www.youtube.com/watch?v=fuEdMCclYn0"
+    },
+    {
+      "Name": "Sempurna",
+      "Artist": "Andra and The Backbone",
+      "Link": "https://youtu.be/jStNaVCW838?si=JqMUGto20d_EIl0G"
+    },    
+    {
+      "Name": "Peradaban",
+      "Artist": ".Feast",
+      "Link": "https://www.youtube.com/watch?v=8c0IzngvGEw"
+    }
+  ]
+}

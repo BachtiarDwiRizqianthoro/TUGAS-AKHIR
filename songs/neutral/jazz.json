@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Andai Saja",
+            "Artist": "Tompi",
+            "Link": "https://www.youtube.com/watch?v=H9Bf9_kP9zM"
+        },
+        {
+            "Name": "Sepanjang Jalan Kenangan",
+            "Artist": "Andien",
+            "Link": "https://www.youtube.com/watch?v=Y1aZzH3KcQA"
+        },
+        {
+            "Name": "Matahari",
+            "Artist": "Maliq & D’Essentials",
+            "Link": "https://www.youtube.com/watch?v=Oaqy3uoknGQ"
+        },
+        {
+            "Name": "Rahasia Hati",
+            "Artist": "Element feat. Andien",
+            "Link": "https://www.youtube.com/watch?v=RHaKMq5Ld80"
+        },
+        {
+            "Name": "Seribu Tahun Lamanya",
+            "Artist": "Tulus",
+            "Link": "https://www.youtube.com/watch?v=63tH2D3dbno"
+        },
+        {
+            "Name": "Cintaku",
+            "Artist": "Chrisye",
+            "Link": "https://www.youtube.com/watch?v=UBy5U9hR1rY"
+        },
+        {
+            "Name": "Hanya Engkau Yang Bisa",
+            "Artist": "Titi DJ",
+            "Link": "https://www.youtube.com/watch?v=jL5p8XKxCGg"
+        },
+        {
+            "Name": "Selangkah Ke Sebrang",
+            "Artist": "Indra Lesmana",
+            "Link": "https://www.youtube.com/watch?v=HxXU3vGx9dM"
+        },
+        {
+            "Name": "Biru",
+            "Artist": "Dewa Budjana",
+            "Link": "https://www.youtube.com/watch?v=7FhWkhVWxEc"
+        },
+        {
+            "Name": "Senandung Lagu Cinta",
+            "Artist": "Glenn Fredly",
+            "Link": "https://www.youtube.com/watch?v=a97zUmFnmfM"
+        }
+    ]
+}

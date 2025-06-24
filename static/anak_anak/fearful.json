@@ -1,0 +1,104 @@
+{
+    "songs": [
+        {
+            "Name": "Hantu Gunung",
+            "Artist": "Tasya",
+            "Link": "https://www.youtube.com/watch?v=abcd1234"
+        },
+        {
+            "Name": "Hantu Juga Takut",
+            "Artist": "Duta Cilik",
+            "Link": "https://www.youtube.com/watch?v=efgh5678"
+        },
+        {
+            "Name": "Cerita Hantu",
+            "Artist": "Sherina",
+            "Link": "https://www.youtube.com/watch?v=ijkl9101"
+        },
+        {
+            "Name": "Hantu di Sekolah",
+            "Artist": "Tasya",
+            "Link": "https://www.youtube.com/watch?v=mnop2345"
+        },
+        {
+            "Name": "Misteri Hantu Rumah Kosong",
+            "Artist": "Duta Cilik",
+            "Link": "https://www.youtube.com/watch?v=qrst6789"
+        },
+        {
+            "Name": "Hantu Jembatan",
+            "Artist": "Tasya",
+            "Link": "https://www.youtube.com/watch?v=uvwx3456"
+        },
+        {
+            "Name": "Hantu Pohon Tua",
+            "Artist": "Duta Cilik",
+            "Link": "https://www.youtube.com/watch?v=yzab7890"
+        },
+        {
+            "Name": "Hantu di Kebun",
+            "Artist": "Tasya",
+            "Link": "https://www.youtube.com/watch?v=cdef1234"
+        },
+        {
+            "Name": "Hantu Penunggu Hutan",
+            "Artist": "Duta Cilik",
+            "Link": "https://www.youtube.com/watch?v=ghij5678"
+        },
+        {
+            "Name": "Hantu di Bawah Tempat Tidur",
+            "Artist": "Tasya",
+            "Link": "https://www.youtube.com/watch?v=klmn9101"
+        },
+        {
+                "Name": "Burung Kakatua",
+                "Artist": "Lagu Daerah Indonesia",
+                "Link": "https://www.youtube.com/watch?v=example1"
+              },
+              {
+                "Name": "Gundul-Gundul Pacul",
+                "Artist": "Lagu Daerah Jawa",
+                "Link": "https://www.youtube.com/watch?v=example2"
+              },
+              {
+                "Name": "Ampar-Ampar Pisang",
+                "Artist": "Lagu Daerah Kalimantan Selatan",
+                "Link": "https://www.youtube.com/watch?v=example3"
+              },
+              {
+                "Name": "Bubuy Bulan",
+                "Artist": "Lagu Daerah Sunda",
+                "Link": "https://www.youtube.com/watch?v=example4"
+              },
+              {
+                "Name": "Es Lilin",
+                "Artist": "Lagu Daerah Sunda",
+                "Link": "https://www.youtube.com/watch?v=example5"
+              },
+              {
+                "Name": "Jali-Jali",
+                "Artist": "Lagu Daerah Betawi",
+                "Link": "https://www.youtube.com/watch?v=example6"
+              },
+              {
+                "Name": "Yamko Rambe Yamko",
+                "Artist": "Lagu Daerah Papua",
+                "Link": "https://www.youtube.com/watch?v=example7"
+              },
+              {
+                "Name": "Manuk Dadali",
+                "Artist": "Lagu Daerah Sunda",
+                "Link": "https://www.youtube.com/watch?v=example8"
+              },
+              {
+                "Name": "Cublak-Cublak Suweng",
+                "Artist": "Lagu Daerah Jawa",
+                "Link": "https://www.youtube.com/watch?v=example9"
+              },
+              {
+                "Name": "Tokecang",
+                "Artist": "Lagu Daerah Sunda",
+                "Link": "https://www.youtube.com/watch?v=example10"
+              }
+            ]
+          }

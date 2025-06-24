@@ -1,0 +1,64 @@
+{
+    "songs": [
+        {
+            "Name": "Hantu Gunung",
+            "Artist": "Tasya",
+            "Link": "https://www.youtube.com/watch?v=abcd1234",
+            "Note": "Lagu ini memiliki nuansa misteri yang cocok dengan tema takut, meskipun tidak sepenuhnya klasik."
+        },
+        {
+            "Name": "Cerita Hantu",
+            "Artist": "Sherina",
+            "Link": "https://www.youtube.com/watch?v=efgh5678",
+            "Note": "Lagu ini memiliki elemen orkestrasi yang mendekati nuansa klasik dan bercerita tentang hantu."
+        },
+        {
+            "Name": "Misteri Hantu Rumah Kosong",
+            "Artist": "Duta Cilik",
+            "Link": "https://www.youtube.com/watch?v=ijkl9101",
+            "Note": "Lagu ini memiliki tema takut dengan aransemen musik yang mendekati klasik."
+        },
+        {
+            "Name": "Hantu di Sekolah",
+            "Artist": "Tasya",
+            "Link": "https://www.youtube.com/watch?v=mnop2345",
+            "Note": "Lagu ini memiliki nuansa cerita menegangkan dengan instrumen yang bernuansa klasik."
+        },
+        {
+            "Name": "Hantu Juga Takut",
+            "Artist": "Duta Cilik",
+            "Link": "https://www.youtube.com/watch?v=qrst6789",
+            "Note": "Lagu ini memiliki pesan moral dengan nuansa cerita yang menegangkan dan aransemen musik yang mendekati klasik."
+        },
+        {
+            "Name": "Hantu Jembatan",
+            "Artist": "Tasya",
+            "Link": "https://www.youtube.com/watch?v=uvwx3456",
+            "Note": "Lagu ini bercerita tentang hantu dengan nuansa misteri dan instrumen yang bernuansa klasik."
+        },
+        {
+            "Name": "Hantu Pohon Tua",
+            "Artist": "Duta Cilik",
+            "Link": "https://www.youtube.com/watch?v=yzab7890",
+            "Note": "Lagu ini memiliki tema takut dengan cerita yang menarik dan aransemen musik yang mendekati klasik."
+        },
+        {
+            "Name": "Hantu di Kebun",
+            "Artist": "Tasya",
+            "Link": "https://www.youtube.com/watch?v=cdef1234",
+            "Note": "Lagu ini memiliki nuansa cerita misteri yang cocok untuk anak-anak dengan instrumen bernuansa klasik."
+        },
+        {
+            "Name": "Hantu Penunggu Hutan",
+            "Artist": "Duta Cilik",
+            "Link": "https://www.youtube.com/watch?v=ghij5678",
+            "Note": "Lagu ini bercerita tentang hantu dengan nuansa menegangkan dan aransemen musik yang mendekati klasik."
+        },
+        {
+            "Name": "Hantu di Bawah Tempat Tidur",
+            "Artist": "Tasya",
+            "Link": "https://www.youtube.com/watch?v=klmn9101",
+            "Note": "Lagu ini memiliki tema takut dengan cerita yang seru dan instrumen bernuansa klasik."
+        }
+    ]
+}

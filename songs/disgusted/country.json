@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Ludah di Topi Koboi",
+            "Artist": "Spit & Boots",
+            "Link": "https://www.youtube.com/watch?v=example1"
+        },
+        {
+            "Name": "Serenade Bau Ketiak",
+            "Artist": "Sweaty Ranchers",
+            "Link": "https://www.youtube.com/watch?v=example2"
+        },
+        {
+            "Name": "Kentut di Kursi Goyang",
+            "Artist": "Old Gas Road",
+            "Link": "https://www.youtube.com/watch?v=example3"
+        },
+        {
+            "Name": "Upil Tertinggal di Saputangan",
+            "Artist": "The Nose Pickers",
+            "Link": "https://www.youtube.com/watch?v=example4"
+        },
+        {
+            "Name": "Air Liur di Whiskey",
+            "Artist": "Saliva & Bourbon",
+            "Link": "https://www.youtube.com/watch?v=example5"
+        },
+        {
+            "Name": "Luka Bernanah di Peternakan",
+            "Artist": "Cowboy Pus",
+            "Link": "https://www.youtube.com/watch?v=example6"
+        },
+        {
+            "Name": "Ketombe di Jaket Kulit",
+            "Artist": "Dusty Dandruff",
+            "Link": "https://www.youtube.com/watch?v=example7"
+        },
+        {
+            "Name": "Gigi Berkarat, Hati Tertambat",
+            "Artist": "Rusty Smile",
+            "Link": "https://www.youtube.com/watch?v=example8"
+        },
+        {
+            "Name": "Telur Busuk di Lumbung",
+            "Artist": "Rotten Ranch",
+            "Link": "https://www.youtube.com/watch?v=example9"
+        },
+        {
+            "Name": "Muntah di Atas Kuda",
+            "Artist": "Gallop & Vomit",
+            "Link": "https://www.youtube.com/watch?v=example10"
+        }
+    ]
+}

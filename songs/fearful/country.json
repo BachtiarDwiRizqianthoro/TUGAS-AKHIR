@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Bayangan Kelam",
+            "Artist": "Iwan Fals",
+            "Link": "https://www.youtube.com/watch?v=abcd1234"
+        },
+        {
+            "Name": "Langkah Sepi",
+            "Artist": "Franky & Jane",
+            "Link": "https://www.youtube.com/watch?v=efgh5678"
+        },
+        {
+            "Name": "Bisikan Angin",
+            "Artist": "Ebiet G. Ade",
+            "Link": "https://www.youtube.com/watch?v=ijkl9101"
+        },
+        {
+            "Name": "Mimpi Buruk di Jalanan",
+            "Artist": "Noah",
+            "Link": "https://www.youtube.com/watch?v=mnop1121"
+        },
+        {
+            "Name": "Duka di Senja Hari",
+            "Artist": "Chrisye",
+            "Link": "https://www.youtube.com/watch?v=qrst3141"
+        },
+        {
+            "Name": "Lagu Malam Mencekam",
+            "Artist": "Slank",
+            "Link": "https://www.youtube.com/watch?v=uvwx5161"
+        },
+        {
+            "Name": "Rahasia Langit Kelam",
+            "Artist": "Sheila on 7",
+            "Link": "https://www.youtube.com/watch?v=yzab7181"
+        },
+        {
+            "Name": "Suara Sunyi",
+            "Artist": "Tulus",
+            "Link": "https://www.youtube.com/watch?v=cdef9202"
+        },
+        {
+            "Name": "Takut akan Bayangan",
+            "Artist": "Judika",
+            "Link": "https://www.youtube.com/watch?v=ghij2324"
+        },
+        {
+            "Name": "Kelam dalam Nada",
+            "Artist": "Yovie & Nuno",
+            "Link": "https://www.youtube.com/watch?v=klmn3434"
+        }
+    ]
+}

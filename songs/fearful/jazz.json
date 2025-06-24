@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Misteri Senja",
+            "Artist": "Indonesian Jazz Ensemble",
+            "Link": "https://www.youtube.com/watch?v=abcd1234"
+        },
+        {
+            "Name": "Bayang-Bayang Hati",
+            "Artist": "Jakarta Jazz Orchestra",
+            "Link": "https://www.youtube.com/watch?v=efgh5678"
+        },
+        {
+            "Name": "Suara Malam",
+            "Artist": "Andien & Jazz Band",
+            "Link": "https://www.youtube.com/watch?v=ijkl9101"
+        },
+        {
+            "Name": "Kelam Dalam Nada",
+            "Artist": "Erwin Gutawa Jazz Project",
+            "Link": "https://www.youtube.com/watch?v=mnop1121"
+        },
+        {
+            "Name": "Bisikan Rindu",
+            "Artist": "Tulus & Indonesian Jazz Collective",
+            "Link": "https://www.youtube.com/watch?v=qrst3141"
+        },
+        {
+            "Name": "Hening yang Mencekam",
+            "Artist": "Dewa Budjana Jazz Fusion",
+            "Link": "https://www.youtube.com/watch?v=uvwx5161"
+        },
+        {
+            "Name": "Rahasia Bayang",
+            "Artist": "Tohpati & The Jazz Explorers",
+            "Link": "https://www.youtube.com/watch?v=yzab7181"
+        },
+        {
+            "Name": "Labirin Cinta",
+            "Artist": "Indonesian Smooth Jazz Band",
+            "Link": "https://www.youtube.com/watch?v=cdef9202"
+        },
+        {
+            "Name": "Nada Misterius",
+            "Artist": "Raisa & Jazz Symphony",
+            "Link": "https://www.youtube.com/watch?v=ghij2324"
+        },
+        {
+            "Name": "Langkah Sendu",
+            "Artist": "Tompi & The Groove Orchestra",
+            "Link": "https://www.youtube.com/watch?v=klmn3434"
+        }
+    ]
+}

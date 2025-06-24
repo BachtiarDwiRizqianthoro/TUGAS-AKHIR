@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Ludah di Atas Bara",
+            "Artist": "Spitfire Rebels",
+            "Link": "https://www.youtube.com/watch?v=example1"
+        },
+        {
+            "Name": "Darah dan Ketombe",
+            "Artist": "Flaky Skulls",
+            "Link": "https://www.youtube.com/watch?v=example2"
+        },
+        {
+            "Name": "Ingus Punk",
+            "Artist": "The Snot Pistols",
+            "Link": "https://www.youtube.com/watch?v=example3"
+        },
+        {
+            "Name": "Goresan Jerawat Berdarah",
+            "Artist": "Acne Destruction",
+            "Link": "https://www.youtube.com/watch?v=example4"
+        },
+        {
+            "Name": "Kentut di Moshpit",
+            "Artist": "The Gas Attack",
+            "Link": "https://www.youtube.com/watch?v=example5"
+        },
+        {
+            "Name": "Tulang Ikan Nyangkut di Tenggorokan",
+            "Artist": "Choking Hazard",
+            "Link": "https://www.youtube.com/watch?v=example6"
+        },
+        {
+            "Name": "Muntah di Atas Stage",
+            "Artist": "Vomitorium Rockers",
+            "Link": "https://www.youtube.com/watch?v=example7"
+        },
+        {
+            "Name": "Keringat Asam Cinta",
+            "Artist": "Sweaty Lovers",
+            "Link": "https://www.youtube.com/watch?v=example8"
+        },
+        {
+            "Name": "Jari Kaki Busuk",
+            "Artist": "Toe Decay",
+            "Link": "https://www.youtube.com/watch?v=example9"
+        },
+        {
+            "Name": "Luka Bernanah di Hati",
+            "Artist": "Pus Explosion",
+            "Link": "https://www.youtube.com/watch?v=example10"
+        }
+    ]
+}

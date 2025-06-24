@@ -1,0 +1,55 @@
+{
+    "songs": [
+      {
+        "Name": "Kesepian",
+        "Artist": "Andien",
+        "Link": "https://www.youtube.com/watch?v=abc123xyz"
+      },
+      {
+        "Name": "Hujan di Mimpi",
+        "Artist": "Tompi",
+        "Link": "https://www.youtube.com/watch?v=def456xyz"
+      },
+      {
+        "Name": "Sampai Nanti, Sampai Mati",
+        "Artist": "Tompi",
+        "Link": "https://www.youtube.com/watch?v=ghi789xyz"
+      },
+      {
+        "Name": "Cinta yang Kembali",
+        "Artist": "Dian Pramana Poetra & Deddy Dhukun",
+        "Link": "https://www.youtube.com/watch?v=jkl012xyz"
+      },
+      {
+        "Name": "Aku Ingin",
+        "Artist": "Indra Lesmana & Nania",
+        "Link": "https://www.youtube.com/watch?v=mno345xyz"
+      },
+      {
+        "Name": "Love Me or Leave Me",
+        "Artist": "Maliq & D'Essentials",
+        "Link": "https://www.youtube.com/watch?v=pqr678xyz"
+      },
+      {
+        "Name": "Blue Sky Collapse",
+        "Artist": "Indra Lesmana",
+        "Link": "https://www.youtube.com/watch?v=stu901xyz"
+      },
+      {
+        "Name": "Selamanya Cinta",
+        "Artist": "D'Cinnamons",
+        "Link": "https://www.youtube.com/watch?v=vwx234xyz"
+      },
+      {
+        "Name": "Hanya Untukmu",
+        "Artist": "Andien",
+        "Link": "https://www.youtube.com/watch?v=yzA567xyz"
+      },
+      {
+        "Name": "Biarlah Sendiri",
+        "Artist": "Bubi Chen",
+        "Link": "https://www.youtube.com/watch?v=bcd890xyz"
+      }
+    ]
+  }
+  

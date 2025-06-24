@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Twinkle, Twinkle, Little Star",
+            "Artist": "Wolfgang Amadeus Mozart",
+            "Link": "https://www.youtube.com/watch?v=yCjJyiqpAuU"
+        },
+        {
+            "Name": "Für Elise",
+            "Artist": "Ludwig van Beethoven",
+            "Link": "https://www.youtube.com/watch?v=wfF0zHeU3Zs"
+        },
+        {
+            "Name": "The Entertainer",
+            "Artist": "Scott Joplin",
+            "Link": "https://www.youtube.com/watch?v=fPmruHc4S9Q"
+        },
+        {
+            "Name": "Clair de Lune",
+            "Artist": "Claude Debussy",
+            "Link": "https://www.youtube.com/watch?v=CvFH_6DNRCY"
+        },
+        {
+            "Name": "Swan Lake Theme",
+            "Artist": "Pyotr Ilyich Tchaikovsky",
+            "Link": "https://www.youtube.com/watch?v=9cNQFB0TDfY"
+        },
+        {
+            "Name": "Canon in D",
+            "Artist": "Johann Pachelbel",
+            "Link": "https://www.youtube.com/watch?v=NlprozGcs80"
+        },
+        {
+            "Name": "Spring (from The Four Seasons)",
+            "Artist": "Antonio Vivaldi",
+            "Link": "https://www.youtube.com/watch?v=GRxofEmo3HA"
+        },
+        {
+            "Name": "Gymnopédie No. 1",
+            "Artist": "Erik Satie",
+            "Link": "https://www.youtube.com/watch?v=S-Xm7s9eGxU"
+        },
+        {
+            "Name": "The Blue Danube",
+            "Artist": "Johann Strauss II",
+            "Link": "https://www.youtube.com/watch?v=_CTYymbbEL4"
+        },
+        {
+            "Name": "Eine kleine Nachtmusik",
+            "Artist": "Wolfgang Amadeus Mozart",
+            "Link": "https://www.youtube.com/watch?v=oy2zDJPIgwc"
+        }
+    ]
+}

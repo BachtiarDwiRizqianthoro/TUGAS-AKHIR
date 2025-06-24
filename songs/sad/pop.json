@@ -1,0 +1,55 @@
+{
+    "songs": [
+      {
+        "Name": "Hampa",
+        "Artist": "Ari Lasso",
+        "Link": "https://www.youtube.com/watch?v=abc123xyz"
+      },
+      {
+        "Name": "Mungkin Nanti",
+        "Artist": "Peterpan",
+        "Link": "https://www.youtube.com/watch?v=def456xyz"
+      },
+      {
+        "Name": "Aku Memilih Setia",
+        "Artist": "Fatin",
+        "Link": "https://www.youtube.com/watch?v=ghi789xyz"
+      },
+      {
+        "Name": "Separuh Aku",
+        "Artist": "Noah",
+        "Link": "https://www.youtube.com/watch?v=jkl012xyz"
+      },
+      {
+        "Name": "Takkan Terganti",
+        "Artist": "Marcell",
+        "Link": "https://www.youtube.com/watch?v=mno345xyz"
+      },
+      {
+        "Name": "Kenangan Terindah",
+        "Artist": "Samsons",
+        "Link": "https://www.youtube.com/watch?v=pqr678xyz"
+      },
+      {
+        "Name": "Bukan Dia Tapi Aku",
+        "Artist": "Judika",
+        "Link": "https://www.youtube.com/watch?v=stu901xyz"
+      },
+      {
+        "Name": "Terlalu Cinta",
+        "Artist": "Rossa",
+        "Link": "https://www.youtube.com/watch?v=vwx234xyz"
+      },
+      {
+        "Name": "Cinta Dalam Hati",
+        "Artist": "Ungu",
+        "Link": "https://www.youtube.com/watch?v=yzA567xyz"
+      },
+      {
+        "Name": "Saat Kau Pergi",
+        "Artist": "Vagetoz",
+        "Link": "https://www.youtube.com/watch?v=bcd890xyz"
+      }
+    ]
+  }
+  

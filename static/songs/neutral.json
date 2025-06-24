@@ -1,0 +1,304 @@
+{
+  "songs": [
+    {
+      "Name": "100 Tahun Lamanya",
+      "Artist": "Tulus",
+      "Link": "https://youtu.be/60W7isIyxos?si=uyX8eFwbD71mFUWG"
+    },
+    {
+      "Name": "Alamat Palsu",
+      "Artist": "Ayu Ting Ting",
+      "Link": "https://youtu.be/2NyGDQItpSY?si=2x6NRkHVkd5vJ_9M"
+    },
+    {
+      "Name": "Aryati",
+      "Artist": "Tantowi Yahya",
+      "Link": "https://www.youtube.com/watch?v=eynJ77-2Hdg"
+    },
+    {
+      "Name": "Asa",
+      "Artist": "Féath feat. Rizky Ananda",
+      "Link": "https://www.youtube.com/watch?v=u1ON3-48tLw"
+    },
+    {
+      "Name": "Begini Begitu",
+      "Artist": "Maliq & D’Essentials",
+      "Link": "https://youtu.be/4llqJVfI5QQ?si=UuQFrFtejMS1rWpS"
+    },
+    {
+      "Name": "Bengawan Solo",
+      "Artist": "Gesang",
+      "Link": "https://www.youtube.com/watch?v=-J4yNa2w_I0"
+    },
+    {
+      "Name": "Biang Lara",
+      "Artist": "Perunggu",
+      "Link": "https://www.youtube.com/watch?v=Hf6AEkTYqUY"
+    },
+    {
+      "Name": "Blue Mansion",
+      "Artist": "Dewa Budjana",
+      "Link": "https://youtu.be/UkkTIKzzuL0?si=WKSbnF1fxbytGjLL"
+    },
+    {
+      "Name": "Boleh Juga",
+      "Artist": "Salma Salsabil",
+      "Link": "https://www.youtube.com/watch?v=j8RVVuAnhjw"
+    },
+    {
+      "Name": "Buka Dikit Joss",
+      "Artist": "Juwita Bahar",
+      "Link": "https://youtu.be/m7dR0wSxXxA?si=JJaR4A8M4jJ-v90U"
+    },
+    {
+      "Name": "Cinta Satu Malam",
+      "Artist": "Melinda",
+      "Link": "https://youtu.be/8wwlhtoIZec?si=6ZGBpO6A32QjAJME"
+    },
+    {
+      "Name": "Cintaku",
+      "Artist": "Chrisye",
+      "Link": "https://youtu.be/l5FGGqqVnTQ?si=vuIjCob2ZmTmmxH3"
+    },
+    {
+      "Name": "Dead Clown",
+      "Artist": "510 feat. Bimopd",
+      "Link": "https://www.youtube.com/watch?v=e-5E2OWBDTk"
+    },
+    {
+      "Name": "Etalase",
+      "Artist": "Barasuara",
+      "Link": "https://www.youtube.com/watch?v=70-PRaBsEMQ"
+    },
+    {
+      "Name": "Gala Bunga Matahari",
+      "Artist": "Sal Priadi",
+      "Link": "https://www.youtube.com/watch?v=AQpEIZ8dNcU"
+    },
+    {
+      "Name": "Gemilang",
+      "Artist": "Krakatau",
+      "Link": "https://www.youtube.com/watch?v=_dEhiroA5Ic"
+    },
+    {
+      "Name": "Gending Sriwijaya",
+      "Artist": "A. Dahlan Muhabat",
+      "Link": "https://www.youtube.com/watch?v=vb1z6JQhbrQ"
+    },
+    {
+      "Name": "Gone Gone Gone",
+      "Artist": "Tantowi Yahya",
+      "Link": "https://www.youtube.com/watch?v=RXHnQoCspiQ"
+    },
+    {
+      "Name": "Goyang 2 Jari",
+      "Artist": "Sandrina",
+      "Link": "https://youtu.be/NEJOBXGeVsI?si=BhzAqunoB0MsOVPw"
+    },
+    {
+      "Name": "Goyang Dumang",
+      "Artist": "Cita Citata",
+      "Link": "https://youtu.be/1opp3AiTGdU?si=omUqxYiIguBqNPFf"
+    },
+    {
+      "Name": "Goyang Morena",
+      "Artist": "Via Vallen",
+      "Link": "https://youtu.be/fYcff0BXh74?si=uWvDRuD2Tt_QFhbF"
+    },
+    {
+      "Name": "Halo, Halo Bandung",
+      "Artist": "Ismail Marzuki",
+      "Link": "https://www.youtube.com/watch?v=L0efDnH415c"
+    },
+    {
+      "Name": "Hanya Engkau Yang Bisa",
+      "Artist": "Titi DJ",
+      "Link": "https://youtu.be/pJA_4PGu8Yg?si=cF2IX6efYLpQ4_kb"
+    },
+    {
+      "Name": "Heroik",
+      "Artist": "Cupumanik",
+      "Link": "https://www.youtube.com/watch?v=zCWXEkAAg9Y"
+    },
+    {
+      "Name": "Hidupku Sunyi",
+      "Artist": "Tantowi Yahya",
+      "Link": "https://www.youtube.com/watch?v=Rs_NAMD1uFM"
+    },
+    {
+      "Name": "Jaran Goyang",
+      "Artist": "Nella Kharisma",
+      "Link": "https://youtu.be/9auwc5vDhX8?si=XZGxjvyIxVbs2_Lb"
+    },
+    {
+      "Name": "Jenuh",
+      "Artist": "Ahmad Albar",
+      "Link": "https://www.youtube.com/watch?v=XgtyoIIVjms"
+    },
+    {
+      "Name": "Kasih Kembalilah",
+      "Artist": "Tantowi Yahya",
+      "Link": "https://www.youtube.com/watch?v=3BByfCc20uU"
+    },
+    {
+      "Name": "Kata Mereka Ini Berlebihan",
+      "Artist": "Bernadya",
+      "Link": "https://www.youtube.com/watch?v=plmkpybOKa0"
+    },
+    {
+      "Name": "Kau dan Aku Satu",
+      "Artist": "Tantowi Yahya",
+      "Link": "https://www.youtube.com/watch?v=Dv3VF7cNzJA"
+    },
+    {
+      "Name": "Kidung Abadi",
+      "Artist": "Chrisye",
+      "Link": "https://www.youtube.com/watch?v=ww3km96f4ic"
+    },
+    {
+      "Name": "Kisah Tanpa Dirimu",
+      "Artist": "Anggis Devaki",
+      "Link": "https://www.youtube.com/watch?v=f11AZg7Xw40"
+    },
+    {
+      "Name": "Kitalah Penjelajahnya!",
+      "Artist": "The Jansen",
+      "Link": "https://www.youtube.com/watch?v=E7P2DReK72M"
+    },
+    {
+      "Name": "Kupu-Kupu",
+      "Artist": "Tiara Andini",
+      "Link": "https://www.youtube.com/watch?v=_A43rHc-VXg"
+    },
+    {
+      "Name": "Lagi Syantik",
+      "Artist": "Siti Badriah",
+      "Link": "https://youtu.be/Tet6_BlStEM?si=xQ5_UXIq5zteeUz9"
+    },
+    {
+      "Name": "Lanni",
+      "Artist": "Senja Dalam Prosa",
+      "Link": "https://www.youtube.com/watch?v=FNXkMoTl0S0"
+    },
+    {
+      "Name": "Look at Us",
+      "Artist": "Tantowi Yahya",
+      "Link": "https://www.youtube.com/watch?v=owxIPI0QCQs"
+    },
+    {
+      "Name": "Love Is a Desire",
+      "Artist": "Tantowi Yahya & Mark Allan",
+      "Link": "https://www.youtube.com/watch?v=uIEZCqKvjEY"
+    },
+    {
+      "Name": "Matahari",
+      "Artist": "Berlian Hutauruk",
+      "Link": "https://www.youtube.com/watch?v=lShoJhmZZFY"
+    },
+    {
+      "Name": "Mati-matian",
+      "Artist": "Mahalini",
+      "Link": "https://www.youtube.com/watch?v=LAOxuo6pkdo"
+    },
+    {
+      "Name": "Menghujam Jantungku",
+      "Artist": "Tompi",
+      "Link": "https://youtu.be/1ETOeAqKhQk?si=kXEpshRWCB_8dE7E"
+    },
+    {
+      "Name": "Nusantara",
+      "Artist": "Tantowi Yahya",
+      "Link": "https://www.youtube.com/watch?v=YFgtxOaqfgo"
+    },
+    {
+      "Name": "Old Country",
+      "Artist": "Tantowi Yahya",
+      "Link": "https://www.youtube.com/watch?v=lhza0Ai_MNI"
+    },
+    {
+      "Name": "Pamer Bojo",
+      "Artist": "Didi Kempot",
+      "Link": "https://youtu.be/Xo9egupmgoE?si=k9CY0yHD-UMgA3q0"
+    },
+    {
+      "Name": "Pesan Terakhir",
+      "Artist": "Lyodra",
+      "Link": "https://www.youtube.com/watch?v=oaFj0lRi3gw"
+    },
+    {
+      "Name": "Rahasia Hati",
+      "Artist": "Element feat. Andien",
+      "Link": "https://youtu.be/Ay_S7AnGr2c?si=D4TmMKxTkMiqxdRh"
+    },
+    {
+      "Name": "Rayuan Pulau Kelapa",
+      "Artist": "Ismail Marzuki",
+      "Link": "https://www.youtube.com/watch?v=mHzf8ZB2Zqw"
+    },
+    {
+      "Name": "Sakura",
+      "Artist": "Fariz RM",
+      "Link": "https://www.youtube.com/watch?v=CjxN_zYBDMw"
+    },
+    {
+      "Name": "Sayang",
+      "Artist": "Via Vallen",
+      "Link": "https://youtu.be/UtjFu8c_goE?si=axAc-jfm2uV0c_R5"
+    },
+    {
+      "Name": "Selangkah Ke Sebrang",
+      "Artist": "Fariz FM",
+      "Link": "https://youtu.be/mxCxAAFRR10?si=gFz2c_RQmD1G2ZpH"
+    },
+    {
+      "Name": "Senandung Lagu Cinta",
+      "Artist": "Ada Band",
+      "Link": "https://youtu.be/NN4A7PrDMNU?si=gmSx_U4qaMkkGha0"
+    },
+    {
+      "Name": "Sepanjang Jalan Kenangan",
+      "Artist": "Tetty Kadi",
+      "Link": "https://youtu.be/bOT5gFLiGSY?si=-VdCigqIT1hMvNmZ"
+    },
+    {
+      "Name": "Sialan",
+      "Artist": "Juicy Luicy & Adrian Khalif",
+      "Link": "https://www.youtube.com/watch?v=0i-D1eBVKUM"
+    },
+    {
+      "Name": "Soleram",
+      "Artist": "Versi Orkes Irama",
+      "Link": "https://www.youtube.com/watch?v=vb1z6JQhbrQ"
+    },
+    {
+      "Name": "Sore di Kebun Raya",
+      "Artist": "The Jansen",
+      "Link": "https://www.youtube.com/watch?v=PHgbwVyn_bg"
+    },
+    {
+      "Name": "Teramini",
+      "Artist": "Ghea Indrawari",
+      "Link": "https://www.youtube.com/watch?v=4ot9IzcAPb8"
+    },
+    {
+      "Name": "Trapped in a Haze",
+      "Artist": "COLORCODE feat. Shafa Ashfihani",
+      "Link": "https://www.youtube.com/watch?v=5dnLd85wSR4"
+    },
+    {
+      "Name": "Untungnya, Hidup Harus Terus Berjalan",
+      "Artist": "Bernadya",
+      "Link": "https://www.youtube.com/watch?v=VSL5F43qgng"
+    },
+    {
+      "Name": "Utara",
+      "Artist": "Skandal",
+      "Link": "https://www.youtube.com/watch?v=vha_ZDf1g24"
+    },
+    {
+      "Name": "You're My Kind of Woman, My Kind of Man",
+      "Artist": "Tantowi Yahya & Pinky Warouw",
+      "Link": "https://www.youtube.com/watch?v=hFw7JgcHDO0"
+    }
+  ]
+}

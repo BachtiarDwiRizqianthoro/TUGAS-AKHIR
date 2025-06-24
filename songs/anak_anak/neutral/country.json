@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "You Are My Sunshine",
+            "Artist": "Johnny Cash",
+            "Link": "https://www.youtube.com/watch?v=1FjY5kY5j8k"
+        },
+        {
+            "Name": "Old MacDonald Had a Farm",
+            "Artist": "The Countdown Kids",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        },
+        {
+            "Name": "The Farmer in the Dell",
+            "Artist": "The Countdown Kids",
+            "Link": "https://www.youtube.com/watch?v=EKkR8FHTWm4"
+        },
+        {
+            "Name": "Home on the Range",
+            "Artist": "Roy Rogers",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        },
+        {
+            "Name": "This Land Is Your Land",
+            "Artist": "Woody Guthrie",
+            "Link": "https://www.youtube.com/watch?v=wxiMrvDbq3s"
+        },
+        {
+            "Name": "Down by the Bay",
+            "Artist": "Raffi",
+            "Link": "https://www.youtube.com/watch?v=H2f1ePEjKio"
+        },
+        {
+            "Name": "Bingo",
+            "Artist": "The Countdown Kids",
+            "Link": "https://www.youtube.com/watch?v=9mmF8zOlh_g"
+        },
+        {
+            "Name": "She'll Be Coming 'Round the Mountain",
+            "Artist": "The Countdown Kids",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        },
+        {
+            "Name": "Twinkle, Twinkle, Little Star",
+            "Artist": "The Countdown Kids",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        },
+        {
+            "Name": "The Wheels on the Bus",
+            "Artist": "The Wiggles",
+            "Link": "https://www.youtube.com/watch?v=GzrjwOQpAl0"
+        }
+    ]
+}

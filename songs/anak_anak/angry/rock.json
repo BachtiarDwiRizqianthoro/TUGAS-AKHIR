@@ -1,0 +1,59 @@
+{
+    "status": "success",
+    "songs": [
+        {
+            "Name": "Angry Song",
+            "Album": "Rock for Kids",
+            "Artist": "Bounce Patrol",
+            "Link": "https://www.youtube.com/watch?v=example2"
+        },
+        {
+            "Name": "Mad at the World",
+            "Album": "Kids Rock Emotions",
+            "Artist": "Kids Rock Band",
+            "Link": "https://www.youtube.com/watch?v=example3"
+        },
+        {
+            "Name": "Grumpy Rock",
+            "Album": "Rockin' Kids",
+            "Artist": "The Rocking Horses",
+            "Link": "https://www.youtube.com/watch?v=example4"
+        },
+        {
+            "Name": "I Don't Wanna!",
+            "Album": "Kids Rock Rebellion",
+            "Artist": "Little Rockers",
+            "Link": "https://www.youtube.com/watch?v=example5"
+        },
+        {
+            "Name": "Tantrum Tune",
+            "Album": "Rockin' Emotions",
+            "Artist": "Rock Kids",
+            "Link": "https://www.youtube.com/watch?v=example6"
+        },
+        {
+            "Name": "No Fair!",
+            "Album": "Kids Rock Out",
+            "Artist": "The Mini Moshers",
+            "Link": "https://www.youtube.com/watch?v=example7"
+        },
+        {
+            "Name": "Rage in My Room",
+            "Album": "Rock for Little Ones",
+            "Artist": "Tiny Rockstars",
+            "Link": "https://www.youtube.com/watch?v=example8"
+        },
+        {
+            "Name": "I'm Furious!",
+            "Album": "Kids Rock Anthems",
+            "Artist": "The Wiggles",
+            "Link": "https://www.youtube.com/watch?v=example9"
+        },
+        {
+            "Name": "Rock and Roll Tantrum",
+            "Album": "Rockin' Kids",
+            "Artist": "The Rocking Horses",
+            "Link": "https://www.youtube.com/watch?v=example10"
+        }
+    ]
+}

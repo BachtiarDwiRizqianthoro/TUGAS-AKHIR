@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang - Moodify</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <style>
+      body {
+        background: url('/static/bg.png') no-repeat center center fixed;
+        background-size: cover;
+        color: #fff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Poppins', sans-serif; /* Menambahkan font yang sama */
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 8%;
+        background: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        position: fixed; /* Mengubah dari absolute ke fixed */
+        top: 0;
+        z-index: 1000;
+        transition: background 0.5s ease;
+      }
+
+      nav .logo {
+        font-size: 30px; /* Disesuaikan dengan detect */
+        font-weight: 600; /* Disesuaikan dengan detect */
+        color: white;
+        display: flex;
+        align-items: center;
+      }
+
+      nav .logo img {
+        width: 40px;
+        margin-right: 10px;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        align-items: center; /* Menyelaraskan item secara vertikal */
+      }
+
+      nav ul li {
+        margin: 0 20px; /* Disesuaikan dengan detect */
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: 700; /* Disesuaikan dengan detect */
+        font-size: 16px;
+      }
+
+      nav ul li a:hover,
+      nav ul li a.active {
+        color: #ffd700;
+      }
+      
+      /* Style khusus untuk dropdown */
+      .dropdown-menu {
+          background-color: rgba(0, 0, 0, 0.8);
+      }
+      .dropdown-item {
+          color: white;
+      }
+      .dropdown-item:hover {
+          background-color: rgba(255, 255, 255, 0.2);
+          color: #ffd700;
+      }
+      .nav-link.dropdown-toggle {
+        color: white;
+        font-weight: 700;
+      }
+       .nav-link.dropdown-toggle:hover,
+       .nav-link.dropdown-toggle.active {
+        color: #ffd700;
+      }
+
+
+      .content {
+        margin-top: 120px; /* Memberi ruang lebih untuk navbar baru */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        flex-grow: 1; /* Membuat konten mengisi ruang tersedia */
+      }
+
+      .about-container {
+        background: rgba(255, 255, 255, 0.9); /* Sedikit transparansi agar menyatu */
+        color: #333;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+        max-width: 1000px;
+        width: 90%;
+        animation: fadeIn 1.5s ease-in-out;
+      }
+
+      .about-container h1 {
+        text-align: center;
+        font-weight: bold;
+        background: -webkit-linear-gradient(45deg, #ffcc33, #ff6699);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 20px;
+      }
+
+      .about-container p {
+        font-size: 18px;
+        line-height: 1.8;
+      }
+
+      .img-responsive {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+      }
+
+      footer {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        width: 100%;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="/static/img2.png" alt="Logo" />
+            <span>Moodify</span>
+        </div>
+        <ul>
+            <li><a href="{{ url_for('home') }}" class="{% if request.endpoint == 'home' %}active{% endif %}">Home</a></li>
+            <li><a href="{{ url_for('detect') }}" class="{% if request.endpoint == 'detect' %}active{% endif %}">Deteksi</a></li>
+            <li><a href="{{ url_for('history') }}" class="{% if request.endpoint == 'history' %}active{% endif %}">Riwayat</a></li>
+            <li><a href="{{ url_for('about') }}" class="{% if request.endpoint == 'about' %}active{% endif %}">Tentang</a></li>
+            
+            {% if current_user.is_authenticated %}
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Hi, {{ current_user.username }}
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                        <a class="dropdown-item" href="{{ url_for('profile') }}">Profile</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="{{ url_for('logout') }}" id="logout-link">Logout</a>
+                    </li>
+                </ul>
+            </li>
+            {% else %}
+            <li>
+                <a href="{{ url_for('login') }}">Login</a>
+            </li>
+            {% endif %}
+        </ul>
+    </nav>
+
+    <div class="content">
+      <div class="about-container">
+        <h1>Selamat Datang Di Moodify</h1>
+        <div class="row align-items-center mt-4">
+          <div class="col-md-6">
+            <p>
+              <strong>Moodify</strong> adalah platform inovatif yang menghadirkan <span style="color:#ffcc33; font-weight:bold;">musik sesuai suasana Mood Anda</span>. Dengan teknologi <em>AI Emotion Recognition</em>, Moodify dapat menganalisis ekspresi wajah Anda secara real-time dan memilihkan lagu yang paling sesuai.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="/static/img3.png" alt="Moodify Emotion Detection" class="img-responsive" />
+          </div>
+        </div>
+        <div class="row align-items-center mt-4">
+          <div class="col-md-6 order-md-2">
+             <p>
+               <span style="color:#6f42c1; font-weight:bold;">Moodify</span> tak hanya cerdas mengenali emosimu, tapi kini kamu punya <span style="color:#20c997; font-weight:bold;">kendali penuh</span>! Pilih langsung ekspresi yang tersedia di halaman utama atau tentukan genre musik favoritmu. Musik yang <span style="color:#fd7e14; font-weight:bold;">benar-benar kamu banget</span>!
+            </p>
+          </div>
+          <div class="col-md-6 order-md-1">
+            <img src="/static/img4.png" alt="Moodify Music Recommendation" class="img-responsive" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+      const logoutLink = document.getElementById('logout-link');
+      if (logoutLink) {
+        logoutLink.addEventListener('click', function (event) {
+          event.preventDefault();
+          Swal.fire({
+            title: 'Apakah anda yakin ingin logout?',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Ya, logout!',
+            cancelButtonText: 'Tidak, stay!'
+          }).then((result) => {
+            if (result.isConfirmed) {
+              window.location.href = this.href;
+            }
+          });
+        });
+      }
+    </script>
+</body>
+</html>

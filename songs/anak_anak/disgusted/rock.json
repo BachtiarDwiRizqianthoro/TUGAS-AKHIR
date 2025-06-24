@@ -1,0 +1,65 @@
+{
+    "status": "success",
+    "songs": [
+        {
+            "Name": "Mud, Mud, Glorious Mud",
+            "Album": "Kids Rock Party",
+            "Artist": "The Wiggles",
+            "Link": "https://www.youtube.com/watch?v=example1"
+        },
+        {
+            "Name": "The Dirt Song",
+            "Album": "Rockin' Kids",
+            "Artist": "Bounce Patrol",
+            "Link": "https://www.youtube.com/watch?v=example2"
+        },
+        {
+            "Name": "Germs, Germs, Go Away!",
+            "Album": "Kids Rock Anthems",
+            "Artist": "Kids Rock Band",
+            "Link": "https://www.youtube.com/watch?v=example3"
+        },
+        {
+            "Name": "Slimy Rock",
+            "Album": "Rock for Kids",
+            "Artist": "The Rocking Horses",
+            "Link": "https://www.youtube.com/watch?v=example4"
+        },
+        {
+            "Name": "Yucky Yuck",
+            "Album": "Kids Rock Emotions",
+            "Artist": "Little Rockers",
+            "Link": "https://www.youtube.com/watch?v=example5"
+        },
+        {
+            "Name": "Gross Out Rock",
+            "Album": "Rockin' Kids",
+            "Artist": "Rock Kids",
+            "Link": "https://www.youtube.com/watch?v=example6"
+        },
+        {
+            "Name": "The Booger Song",
+            "Album": "Kids Rock Out",
+            "Artist": "The Mini Moshers",
+            "Link": "https://www.youtube.com/watch?v=example7"
+        },
+        {
+            "Name": "Sticky Icky",
+            "Album": "Rock for Little Ones",
+            "Artist": "Tiny Rockstars",
+            "Link": "https://www.youtube.com/watch?v=example8"
+        },
+        {
+            "Name": "Eww, What's That Smell?",
+            "Album": "Kids Rock Anthems",
+            "Artist": "The Wiggles",
+            "Link": "https://www.youtube.com/watch?v=example9"
+        },
+        {
+            "Name": "Rockin' in the Mud",
+            "Album": "Rockin' Kids",
+            "Artist": "The Rocking Horses",
+            "Link": "https://www.youtube.com/watch?v=example10"
+        }
+    ]
+}

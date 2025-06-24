@@ -1,0 +1,55 @@
+{
+    "songs": 
+      [
+        {
+          "Name": "Gugur Bunga",
+          "Artist": "Ismail Marzuki",
+          "Link": "https://www.youtube.com/watch?v=u9UDiPMWDqM"
+        },
+        {
+          "Name": "Kidung Abadi",
+          "Artist": "Chrisye",
+          "Link": "https://www.youtube.com/watch?v=8VOK0tIozSI"
+        },
+        {
+          "Name": "Rasa Sayange",
+          "Artist": "Paulus Pea",
+          "Link": "https://www.youtube.com/watch?v=r14NHSt7xCA"
+        },
+        {
+          "Name": "Melangkah Di Atas Awan",
+          "Artist": "Ronnie Sianturi",
+          "Link": "https://www.youtube.com/watch?v=gmhprgz4WC4"
+        },
+        {
+          "Name": "Sabda Alam",
+          "Artist": "Memes",
+          "Link": "https://www.youtube.com/watch?v=0yL_oW2-rC4"
+        },
+        {
+          "Name": "Surga Cinta",
+          "Artist": "Ada Band",
+          "Link": "https://www.youtube.com/watch?v=vsx_bYLS_K4"
+        },
+        {
+          "Name": "Bintang di Surga",
+          "Artist": "Noah",
+          "Link": "https://www.youtube.com/watch?v=tBnbDO1yFJo"
+        },
+        {
+          "Name": "Dalan Tembus",
+          "Artist": "Didi Kempot",
+          "Link": "https://www.youtube.com/watch?v=WvAS0zp-em8"
+        },
+        {
+          "Name": "Kebyar-Kebyar",
+          "Artist": "Gombloh",
+          "Link": "https://www.youtube.com/watch?v=kn4UQzVNiQo"
+        },
+        {
+          "Name": "Bengawan Solo",
+          "Artist": "Gesang",
+          "Link": "https://www.youtube.com/watch?v=O6IeSI2Pm10"
+        }
+      ]
+    }      

@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "What a Wonderful World",
+            "Artist": "Louis Armstrong",
+            "Link": "https://www.youtube.com/watch?v=CWzrABouyeE"
+        },
+        {
+            "Name": "Splish Splash",
+            "Artist": "Bobby Darin",
+            "Link": "https://www.youtube.com/watch?v=rn_YodiJO6k"
+        },
+        {
+            "Name": "The Muffin Man",
+            "Artist": "Ella Fitzgerald",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        },
+        {
+            "Name": "A-Tisket, A-Tasket",
+            "Artist": "Ella Fitzgerald",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        },
+        {
+            "Name": "The Bare Necessities",
+            "Artist": "Louis Armstrong",
+            "Link": "https://www.youtube.com/watch?v=9ogQ0uge06o"
+        },
+        {
+            "Name": "When You Wish Upon a Star",
+            "Artist": "Louis Armstrong",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        },
+        {
+            "Name": "Zip-A-Dee-Doo-Dah",
+            "Artist": "Louis Armstrong",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        },
+        {
+            "Name": "The Rainbow Connection",
+            "Artist": "Kermit the Frog",
+            "Link": "https://www.youtube.com/watch?v=jSFLZ-MzIhM"
+        },
+        {
+            "Name": "L-O-V-E",
+            "Artist": "Nat King Cole",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        },
+        {
+            "Name": "It's a Small World",
+            "Artist": "Louis Armstrong",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        }
+    ]
+}

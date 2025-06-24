@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Takut",
+            "Artist": "Via Vallen",
+            "Link": "https://www.youtube.com/watch?v=eWDz9OMu4ZQ"
+        },
+        {
+            "Name": "Mimpi Buruk",
+            "Artist": "Rana Rani",
+            "Link": "https://www.youtube.com/watch?v=B4Zo2MoGOd4"
+        },
+        {
+            "Name": "Malam",
+            "Artist": "Rita Sugiarto",
+            "Link": "https://www.youtube.com/watch?app=desktop&v=gjP6X113M8Q"
+        },
+        {
+            "Name": "Puing Puing",
+            "Artist": "Rhoma Irama",
+            "Link": "https://www.youtube.com/watch?v=RVk3mJN6ZY4"
+        },
+        {
+            "Name": "egois",
+            "Artist": "Lesti Kejora",
+            "Link": "https://www.youtube.com/watch?v=8OoXBXUrcOw"
+        },
+        {
+            "Name": "Rahasia Cinta",
+            "Artist": "Evie Tamala",
+            "Link": "https://www.youtube.com/watch?v=iMLgxok3VYk"
+        },
+        {
+        "Name": "Jeritan Hati",
+        "Artist": "Mirnawati",
+        "Link": "https://www.youtube.com/watch?v=GYn1LlQwig4"
+        },
+        {
+            "Name": "Bintang Pentas",
+            "Artist": "Dewi Perssik",
+            "Link": "https://www.youtube.com/watch?v=am2Kj1PLAv4"
+        },
+        {
+            "Name": "Sakitnya Tuh Disini",
+            "Artist": "Cita Citata",
+            "Link": "https://www.youtube.com/watch?v=yLeQAS5xSAg"
+        },
+        {
+            "Name": "TATITUT",
+            "Artist": "Ayu Ting Ting",
+            "Link": "https://www.youtube.com/watch?v=5gLe94rL77Y"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "songs":[
+    {
+      "Name": "Bengawan Solo",
+      "Artist": "Gesang",
+      "Link": "https://www.youtube.com/watch?v=-J4yNa2w_I0"
+    },
+    {
+      "Name": "Halo, Halo Bandung",
+      "Artist": "Ismail Marzuki",
+      "Link": "https://www.youtube.com/watch?v=L0efDnH415c"
+    },
+    {
+      "Name": "Rayuan Pulau Kelapa",
+      "Artist": "Ismail Marzuki",
+      "Link": "https://www.youtube.com/watch?v=mHzf8ZB2Zqw"
+    },
+    {
+      "Name": "Kidung Abadi",
+      "Artist": "Chrisye",
+      "Link": "https://www.youtube.com/watch?v=ww3km96f4ic"
+    },
+    {
+      "Name": "Gending Sriwijaya",
+      "Artist": "A. Dahlan Muhabat",
+      "Link": "https://www.youtube.com/watch?v=vb1z6JQhbrQ"
+    },
+    {
+      "Name": "Soleram",
+      "Artist": "Versi Orkes Irama",
+      "Link": "https://www.youtube.com/watch?v=vb1z6JQhbrQ"
+    },
+    {
+      "Name": "Gemilang",
+      "Artist": "Krakatau",
+      "Link": "https://www.youtube.com/watch?v=_dEhiroA5Ic"
+    },
+    {
+      "Name": "Sakura",
+      "Artist": "Fariz RM",
+      "Link": "https://www.youtube.com/watch?v=CjxN_zYBDMw"
+    },
+    {
+      "Name": "Jenuh",
+      "Artist": "Ahmad Albar",
+      "Link": "https://www.youtube.com/watch?v=XgtyoIIVjms"
+    },
+    {
+      "Name": "Matahari",
+      "Artist": "Berlian Hutauruk",
+      "Link": "https://www.youtube.com/watch?v=lShoJhmZZFY"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+    "songs": [
+        {
+            "Name": "Symphony No. 5",
+            "Album": "Beethoven: Complete Symphonies",
+            "Artist": "Ludwig van Beethoven",
+            "Link": "https://www.youtube.com/watch?v=fOk8Tm815lE"
+        },
+        {
+            "Name": "Mars, the Bringer of War",
+            "Album": "The Planets",
+            "Artist": "Gustav Holst",
+            "Link": "https://www.youtube.com/watch?v=L0bcRCCg01I"
+        },
+        {
+            "Name": "O Fortuna",
+            "Album": "Carmina Burana",
+            "Artist": "Carl Orff",
+            "Link": "https://www.youtube.com/watch?v=GXFSK0ogeg4"
+        },
+        {
+            "Name": "Toccata and Fugue in D Minor",
+            "Album": "Organ Masterpieces",
+            "Artist": "Johann Sebastian Bach",
+            "Link": "https://www.youtube.com/watch?v=Nnuq9PXbywA"
+        },
+        {
+            "Name": "In the Hall of the Mountain King",
+            "Album": "Peer Gynt",
+            "Artist": "Edvard Grieg",
+            "Link": "https://www.youtube.com/watch?v=kLp_Hh6DKWc"
+        },
+        {
+            "Name": "Bubuy Bulan (Instrumental)",
+            "Album": "Sunda Classics",
+            "Artist": "Traditional Sundanese",
+            "Link": "https://www.youtube.com/watch?v=example1"
+        },
+        {
+            "Name": "Gambang Suling",
+            "Album": "Javanese Gamelan Classics",
+            "Artist": "Ki Nartosabdo",
+            "Link": "https://www.youtube.com/watch?v=example2"
+        },
+        {
+            "Name": "Lukisan Malam",
+            "Album": "Indonesian Classical",
+            "Artist": "Ananda Sukarlan",
+            "Link": "https://www.youtube.com/watch?v=example3"
+        },
+        {
+            "Name": "Lir Ilir",
+            "Album": "Traditional Javanese",
+            "Artist": "Sunan Kalijaga (arranged for gamelan)",
+            "Link": "https://www.youtube.com/watch?v=example4"
+        },
+        {
+            "Name": "Janger",
+            "Album": "Balinese Classics",
+            "Artist": "Balinese Gamelan Ensemble",
+            "Link": "https://www.youtube.com/watch?v=example5"
+        }
+    ]
+}

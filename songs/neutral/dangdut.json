@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Gelandangan",
+            "Artist": "Rhoma Irama",
+            "Link": "https://www.youtube.com/watch?v=Lp5hG8A1oPQ"
+        },
+        {
+            "Name": "Berkelana",
+            "Artist": "Rhoma Irama",
+            "Link": "https://www.youtube.com/watch?v=6HfKZ8qT4fM"
+        },
+        {
+            "Name": "Rembulan",
+            "Artist": "Evie Tamala",
+            "Link": "https://www.youtube.com/watch?v=DF9QyNvA1IU"
+        },
+        {
+            "Name": "Secawan Madu",
+            "Artist": "Dewi Perssik",
+            "Link": "https://www.youtube.com/watch?v=87GqFZNW6UE"
+        },
+        {
+            "Name": "Kandas",
+            "Artist": "Evie Tamala & Imron Sadewo",
+            "Link": "https://www.youtube.com/watch?v=EPNyK5D1l9Y"
+        },
+        {
+            "Name": "Bukan Tak Mampu",
+            "Artist": "Iis Dahlia",
+            "Link": "https://www.youtube.com/watch?v=FkQ6P1Vz8TM"
+        },
+        {
+            "Name": "Sakit Gigi",
+            "Artist": "Meggy Z",
+            "Link": "https://www.youtube.com/watch?v=f2HndpLN7xE"
+        },
+        {
+            "Name": "Duit",
+            "Artist": "Mansyur S",
+            "Link": "https://www.youtube.com/watch?v=EX5gT59GhTA"
+        },
+        {
+            "Name": "Sumpah Benang Emas",
+            "Artist": "Elvy Sukaesih",
+            "Link": "https://www.youtube.com/watch?v=T6HgdX9X-MY"
+        },
+        {
+            "Name": "Derita di Balik Tawa",
+            "Artist": "Erie Suzan",
+            "Link": "https://www.youtube.com/watch?v=X5Y8bQb3VC4"
+        }
+    ]
+}

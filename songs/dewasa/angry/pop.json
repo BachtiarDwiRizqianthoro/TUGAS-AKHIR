@@ -1,0 +1,64 @@
+{
+    "songs": [
+        {
+            "Name": "Berharap Tak Berpisah",
+            "Album": "Cinta",
+            "Artist": "Reza Artamevia",
+            "Link": "https://www.youtube.com/watch?v=Q5bQnpeVHBs"
+        },
+        {
+            "Name": "Cukup Siti Nurbaya",
+            "Album": "Sebuah Nama Sebuah Cerita",
+            "Artist": "Dewa 19",
+            "Link": "https://www.youtube.com/watch?v=hoGJztvcky8"
+        },
+        {
+            "Name": "Bukan Cinta Biasa",
+            "Album": "Rossa",
+            "Artist": "Rossa",
+            "Link": "https://www.youtube.com/watch?v=in3gtt-Ey8U"
+        },
+        {
+            "Name": "Pupus",
+            "Album": "Cintailah Cinta",
+            "Artist": "Dewa 19",
+            "Link": "https://www.youtube.com/watch?v=mWS_TJH_78Q"
+        },
+        {
+            "Name": "Hampa",
+            "Album": "Badai Pasti Berlalu",
+            "Artist": "Ari Lasso",
+            "Link": "https://www.youtube.com/watch?v=fQ3H3U6MzSE"
+        },
+        {
+            "Name": "Selamat Tinggal",
+            "Album": "OST Dealova",
+            "Artist": "Virgoun",
+            "Link": "https://www.youtube.com/watch?v=vMhe_jzB-S0"
+        },
+        {
+            "Name": "Buat Aku Tersenyum",
+            "Album": "SHEILA ON 7",
+            "Artist": "Sheila On 7",
+            "Link": "https://www.youtube.com/watch?v=ie-mXf5Lon8"
+        },
+        {
+            "Name": "Kisah Klasik Untuk Masa Depan",
+            "Album": "07 Des",
+            "Artist": "Sheila On 7",
+            "Link": "https://www.youtube.com/watch?v=WKsoUFblnfc"
+        },
+        {
+            "Name": "Tak Bisa Memiliki",
+            "Album": "OST Dealova",
+            "Artist": "Samsons",
+            "Link": "https://www.youtube.com/watch?v=STcx-FN0gho"
+        },
+        {
+            "Name": "Menghapus Jejakmu",
+            "Album": "Laskar Pelangi",
+            "Artist": "Noah",
+            "Link": "https://www.youtube.com/watch?v=nGMP3kYq2bE"
+        }
+    ]
+}

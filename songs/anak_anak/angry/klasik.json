@@ -1,0 +1,65 @@
+{
+    "status": "success",
+    "songs": [
+        {
+            "Name": "Baby Shark (Classical Version)",
+            "Album": "Classical Covers for Kids",
+            "Artist": "Various Artists",
+            "Link": "https://www.youtube.com/watch?v=example1"
+        },
+        {
+            "Name": "Twinkle Twinkle Little Star (Mozart Variation)",
+            "Album": "Lagu Anak Klasik",
+            "Artist": "Wolfgang Amadeus Mozart",
+            "Link": "https://www.youtube.com/watch?v=example2"
+        },
+        {
+            "Name": "The ABC Song (Classical Style)",
+            "Album": "Musik Edukasi Anak",
+            "Artist": "Unknown",
+            "Link": "https://www.youtube.com/watch?v=example3"
+        },
+        {
+            "Name": "Old MacDonald Had a Farm (Orchestral Version)",
+            "Album": "Lagu Anak Klasik",
+            "Artist": "Various Artists",
+            "Link": "https://www.youtube.com/watch?v=example4"
+        },
+        {
+            "Name": "If You're Happy and You Know It (Classical Arrangement)",
+            "Album": "Musik Anak Klasik",
+            "Artist": "Unknown",
+            "Link": "https://www.youtube.com/watch?v=example5"
+        },
+        {
+            "Name": "Bingo (Classical Version)",
+            "Album": "Lagu Anak Klasik",
+            "Artist": "Various Artists",
+            "Link": "https://www.youtube.com/watch?v=example6"
+        },
+        {
+            "Name": "Row Row Row Your Boat (Orchestral Cover)",
+            "Album": "Musik Anak Klasik",
+            "Artist": "Unknown",
+            "Link": "https://www.youtube.com/watch?v=example7"
+        },
+        {
+            "Name": "The Wheels on the Bus (Classical Style)",
+            "Album": "Lagu Anak Klasik",
+            "Artist": "Unknown",
+            "Link": "https://www.youtube.com/watch?v=example8"
+        },
+        {
+            "Name": "Mary Had a Little Lamb (Classical Arrangement)",
+            "Album": "Musik Edukasi Anak",
+            "Artist": "Unknown",
+            "Link": "https://www.youtube.com/watch?v=example9"
+        },
+        {
+            "Name": "London Bridge Is Falling Down (Classical Version)",
+            "Album": "Lagu Anak Klasik",
+            "Artist": "Various Artists",
+            "Link": "https://www.youtube.com/watch?v=example10"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "songs": [
+      {
+        "Name": "Jika",
+        "Artist": "Danilla & Hindia",
+        "Link": "https://www.youtube.com/watch?v=example1"
+      },
+      {
+        "Name": "Dunia Tipu-Tipu",
+        "Artist": "Yura Yunita",
+        "Link": "https://www.youtube.com/watch?v=example2"
+      },
+      {
+        "Name": "Hati-Hati di Jalan",
+        "Artist": "Tulus",
+        "Link": "https://www.youtube.com/watch?v=example3"
+      },
+      {
+        "Name": "Pesan Terakhir",
+        "Artist": "Lyodra",
+        "Link": "https://www.youtube.com/watch?v=example4"
+      },
+      {
+        "Name": "Badai Pasti Berlalu",
+        "Artist": "Noah",
+        "Link": "https://www.youtube.com/watch?v=example5"
+      },
+      {
+        "Name": "Sial",
+        "Artist": "Mahalini",
+        "Link": "https://www.youtube.com/watch?v=example6"
+      },
+      {
+        "Name": "Merasa Indah",
+        "Artist": "Tiara Andini",
+        "Link": "https://www.youtube.com/watch?v=example7"
+      },
+      {
+        "Name": "Tertawan Hati",
+        "Artist": "Awdella",
+        "Link": "https://www.youtube.com/watch?v=example8"
+      },
+      {
+        "Name": "Bukan Untukku",
+        "Artist": "Tiara Andini",
+        "Link": "https://www.youtube.com/watch?v=example9"
+      },
+      {
+        "Name": "Kangen",
+        "Artist": "Dewa 19",
+        "Link": "https://www.youtube.com/watch?v=example10"
+      }
+    ]
+  }
+  

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riwayat Rekomendasi - Moodify</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: url("{{ url_for('static', filename='bg.png') }}") center/cover no-repeat fixed;
+            background-color: rgba(0, 0, 0, 0.6);
+            background-blend-mode: overlay;
+            color: white;
+        }
+
+        /* --- Navbar --- */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            background: rgba(0, 0, 0, 0.8);
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 1030;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        }
+
+        nav .logo {
+            font-size: 30px;
+            font-weight: 700;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+
+        nav .logo img {
+            width: 40px;
+            margin-right: 10px;
+        }
+        
+        nav .logo a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin-bottom: 0;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover, nav ul li a.active {
+            color: #ffd700;
+        }
+        
+        .dropdown-menu {
+            border-radius: 0.5rem;
+        }
+
+        .dropdown-item {
+            font-weight: 500;
+        }
+        
+        /* --- Konten Utama --- */
+        .main-container {
+            padding-top: 120px;
+            padding-bottom: 50px;
+            min-height: 100vh;
+        }
+
+        .history-box {
+            background: rgba(255, 255, 255, 0.98);
+            color: #333;
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .history-box h1 {
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        /* --- Tabel --- */
+        .table {
+            border-collapse: separate;
+            border-spacing: 0;
+            border-radius: 10px;
+            overflow: hidden; /* Penting untuk border-radius */
+        }
+
+        .table thead {
+            background-color: #343a40;
+            color: white;
+        }
+
+        .table th, .table td {
+            vertical-align: middle;
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        .table td:nth-child(6), .table th:nth-child(6),
+        .table td:nth-child(7), .table th:nth-child(7) {
+            text-align: left;
+        }
+
+        .btn-watch {
+            font-weight: 500;
+            width: 110px;
+            transition: all 0.2s ease-in-out;
+        }
+        .btn-watch:hover {
+            transform: scale(1.05);
+        }
+
+        /* --- PERUBAHAN CSS DI SINI --- */
+        /* 1. Tambahkan @keyframes untuk animasi fadeIn */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* 2. Buat class .fade-in untuk menerapkan animasi */
+        .fade-in {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img2.png') }}" alt="Logo" />
+            <a href="{{ url_for('home') }}"><span>Moodify</span></a>
+        </div>
+        <ul>
+            <li><a href="{{ url_for('home') }}" class="{% if request.endpoint == 'home' %}active{% endif %}">Home</a></li>
+            <li><a href="{{ url_for('detect') }}" class="{% if request.endpoint == 'detect' %}active{% endif %}">Deteksi</a></li>
+            <li><a href="{{ url_for('history') }}" class="{% if request.endpoint == 'history' %}active{% endif %}">Riwayat</a></li>
+            <li><a href="{{ url_for('about') }}" class="{% if request.endpoint == 'about' %}active{% endif %}">Tentang</a></li>
+            
+            {% if current_user.is_authenticated %}
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Hi, {{ current_user.username }}
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="{{ url_for('profile') }}"><i class="fas fa-user-circle me-2"></i>Profile</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="{{ url_for('logout') }}" id="logout-link"><i class="fas fa-sign-out-alt me-2"></i>Logout</a></li>
+                </ul>
+            </li>
+            {% else %}
+            <li>
+                <a class="btn btn-outline-warning btn-sm" href="{{ url_for('login') }}">Login</a>
+            </li>
+            {% endif %}
+        </ul>
+    </nav>
+
+    <div class="main-container fade-in">
+        <div class="container">
+            <div class="history-box">
+                <h1>Riwayat Rekomendasi Anda</h1>
+                
+                {% if history_records %}
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Tanggal</th>
+                                <th>Umur</th>      
+                                <th>Ekspresi</th>
+                                <th>Genre</th>
+                                <th>Judul Lagu</th>
+                                <th>Artis</th>
+                                <th>Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for record in history_records %}
+                            <tr>
+                                <td>{{ loop.index }}</td>
+                                <td>{{ record.timestamp.strftime('%d %b %Y, %H:%M') }}</td>
+                                <td>{{ record.age }}</td>
+                                <td>{{ record.emotion }}</td>
+                                <td>{{ record.genre }}</td>
+                                <td>{{ record.song_name }}</td>
+                                <td>{{ record.artist_name }}</td>
+                                <td>
+                                    <a href="{{ record.youtube_link }}" target="_blank" class="btn btn-danger btn-sm btn-watch">
+                                        <i class="fab fa-youtube me-2"></i>Tonton
+                                    </a>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                        </table>
+                </div>
+                {% else %}
+                <div class="alert alert-info text-center mt-4" role="alert">
+                    <h4 class="alert-heading">Riwayat Kosong!</h4>
+                    <p class="mb-0">Anda belum memiliki riwayat. Coba fitur rekomendasi kami di halaman <a href="{{ url_for('home') }}" class="alert-link">Home</a> untuk memulai.</p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const logoutLink = document.getElementById("logout-link");
+
+            if (logoutLink) {
+                logoutLink.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    
+                    const logoutUrl = this.href;
+
+                    Swal.fire({
+                        title: "Apakah Anda yakin ingin logout?",
+                        icon: "warning",
+                        showCancelButton: true,
+                        confirmButtonColor: "#3085d6",
+                        cancelButtonColor: "#d33",
+                        confirmButtonText: "Ya, logout!",
+                        cancelButtonText: "Batal",
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            window.location.href = logoutUrl;
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>

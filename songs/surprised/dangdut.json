@@ -1,0 +1,55 @@
+{
+    "songs": [
+      {
+        "Name": "Gara-Gara Sebotol",
+        "Artist": "Via Vallen",
+        "Link": "https://www.youtube.com/watch?v=example1"
+      },
+      {
+        "Name": "Udang Di Balik Batu",
+        "Artist": "Ungu, Lesti Kejora, King Nassar",
+        "Link": "https://www.youtube.com/watch?v=example2"
+      },
+      {
+        "Name": "Sakitnya Tuh Disini",
+        "Artist": "Cita Citata",
+        "Link": "https://www.youtube.com/watch?v=example3"
+      },
+      {
+        "Name": "Kopi Dangdut",
+        "Artist": "Fahmi Shahab",
+        "Link": "https://www.youtube.com/watch?v=example4"
+      },
+      {
+        "Name": "Ojo Dibandingke",
+        "Artist": "Denny Caknan",
+        "Link": "https://www.youtube.com/watch?v=example5"
+      },
+      {
+        "Name": "Mari Bergoyang Dangdut",
+        "Artist": "Bunda Corla",
+        "Link": "https://www.youtube.com/watch?v=example6"
+      },
+      {
+        "Name": "Pelet Cinta",
+        "Artist": "Soimah",
+        "Link": "https://www.youtube.com/watch?v=example7"
+      },
+      {
+        "Name": "Halalin Aku",
+        "Artist": "Dewi Perssik",
+        "Link": "https://www.youtube.com/watch?v=example8"
+      },
+      {
+        "Name": "Abang Goda",
+        "Artist": "Duo Serigala",
+        "Link": "https://www.youtube.com/watch?v=example9"
+      },
+      {
+        "Name": "Jimat Apa",
+        "Artist": "Inul Daratista",
+        "Link": "https://www.youtube.com/watch?v=example10"
+      }
+    ]
+  }
+  

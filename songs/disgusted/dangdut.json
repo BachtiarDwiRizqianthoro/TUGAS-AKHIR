@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Goyang Ingus",
+            "Artist": "Bang Udel",
+            "Link": "https://www.youtube.com/watch?v=example1"
+        },
+        {
+            "Name": "Sambal Basi",
+            "Artist": "Ratu Pedas",
+            "Link": "https://www.youtube.com/watch?v=example2"
+        },
+        {
+            "Name": "Ketombe Cinta",
+            "Artist": "Didi Lulur",
+            "Link": "https://www.youtube.com/watch?v=example3"
+        },
+        {
+            "Name": "Ceker Ayam Bau",
+            "Artist": "Mas Brokoli",
+            "Link": "https://www.youtube.com/watch?v=example4"
+        },
+        {
+            "Name": "Gatal-Gatal Manja",
+            "Artist": "DJ Kurap",
+            "Link": "https://www.youtube.com/watch?v=example5"
+        },
+        {
+            "Name": "Gigi Berkarat",
+            "Artist": "Mbak Odol",
+            "Link": "https://www.youtube.com/watch?v=example6"
+        },
+        {
+            "Name": "Jangan Makan Kecoa",
+            "Artist": "Ustaz Jangkrik",
+            "Link": "https://www.youtube.com/watch?v=example7"
+        },
+        {
+            "Name": "Ketek Busuk",
+            "Artist": "Si Om Jabrik",
+            "Link": "https://www.youtube.com/watch?v=example8"
+        },
+        {
+            "Name": "Telor Busuk",
+            "Artist": "Duo Bebek",
+            "Link": "https://www.youtube.com/watch?v=example9"
+        },
+        {
+            "Name": "Sisa Sate Semalam",
+            "Artist": "Bang Tongseng",
+            "Link": "https://www.youtube.com/watch?v=example10"
+        }
+    ]
+}

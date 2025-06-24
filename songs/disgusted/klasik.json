@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Simfoni Upil Agung",
+            "Artist": "Orkestra Lendir",
+            "Link": "https://www.youtube.com/watch?v=example1"
+        },
+        {
+            "Name": "Sonata Ludah Elegan",
+            "Artist": "Mozart Bersin",
+            "Link": "https://www.youtube.com/watch?v=example2"
+        },
+        {
+            "Name": "Nocturne Ketombe Halus",
+            "Artist": "Frédéric Flaky",
+            "Link": "https://www.youtube.com/watch?v=example3"
+        },
+        {
+            "Name": "Ode untuk Ingus Syahdu",
+            "Artist": "Beethoven Meler",
+            "Link": "https://www.youtube.com/watch?v=example4"
+        },
+        {
+            "Name": "Minuet Aroma Keringat",
+            "Artist": "Johann Sebumstian Bach",
+            "Link": "https://www.youtube.com/watch?v=example5"
+        },
+        {
+            "Name": "Konserto Tenggorokan Berdahak",
+            "Artist": "The Phlegm Philharmonic",
+            "Link": "https://www.youtube.com/watch?v=example6"
+        },
+        {
+            "Name": "Fantasia Kentut Berlapis",
+            "Artist": "Ludwig van Gasshoven",
+            "Link": "https://www.youtube.com/watch?v=example7"
+        },
+        {
+            "Name": "Requiem untuk Gigi Berkarat",
+            "Artist": "Wolfgang Amadeus Karang",
+            "Link": "https://www.youtube.com/watch?v=example8"
+        },
+        {
+            "Name": "Prelude Sendawa di Senja",
+            "Artist": "Claude Debusendawa",
+            "Link": "https://www.youtube.com/watch?v=example9"
+        },
+        {
+            "Name": "Serenade untuk Lidah Berminyak",
+            "Artist": "Tchaikovsky Greasy Ensemble",
+            "Link": "https://www.youtube.com/watch?v=example10"
+        }
+    ]
+}

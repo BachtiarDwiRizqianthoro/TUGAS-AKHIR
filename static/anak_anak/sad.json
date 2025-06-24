@@ -1,0 +1,55 @@
+{
+    "status": "success",
+    "songs": [
+    {
+      "Name": "Bunda",
+      "Artist": "Potret (Melly Goeslaw)",
+      "Link": "http://www.youtube.com/watch?v=-A_sQZ6XNCc"
+    },
+    {
+      "Name": "Ayah",
+      "Artist": "Rinto Harahap",
+      "Link": "http://www.youtube.com/watch?v=znNTOkeOeeA"
+    },
+    {
+      "Name": "Tek Kotek (Anak Ayam)",
+      "Artist": "Pustaka Kids",
+      "Link": "http://www.youtube.com/watch?v=OszmhdV0_cg"
+    },
+    {
+      "Name": "Kasih Ibu",
+      "Artist": "SM. Mochtar",
+      "Link": "http://www.youtube.com/watch?v=Vv1hdXTdItA"
+    },
+    {
+      "Name": "Pergi Belajar",
+      "Artist": "Ibu Sud",
+      "Link": "http://www.youtube.com/watch?v=e6eopGs2Ooc"
+    },
+    {
+      "Name": "Desaku yang Kucinta",
+      "Artist": "L. Manik",
+      "Link": "http://www.youtube.com/watch?v=p2NE_S_KmTc"
+    },
+    {
+      "Name": "Tik-Tik Bunyi Hujan",
+      "Artist": "Ibu Sud",
+      "Link": "http://www.youtube.com/watch?v=BmPBjAjPy-M"
+    },
+    {
+      "Name": "Burung Kakatua",
+      "Artist": "NN",
+      "Link": "http://www.youtube.com/watch?v=JT3AOK5QhsA"
+    },
+    {
+      "Name": "Kelinciku",
+      "Artist": "A.T. Mahmud",
+      "Link": "http://www.youtube.com/watch?v=ILz2al5KDRk"
+    },
+    {
+      "Name": "Ambilkan Bulan Bu",
+      "Artist": "A.T. Mahmud",
+      "Link": "http://www.youtube.com/watch?v=utzMH_RFckk"
+    }
+  ]
+}

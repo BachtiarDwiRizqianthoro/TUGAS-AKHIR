@@ -1,0 +1,55 @@
+{
+    "songs": [
+      {
+        "Name": "Oemar Bakri",
+        "Artist": "Iwan Fals",
+        "Link": "https://www.youtube.com/watch?v=abcd1234"
+      },
+      {
+        "Name": "Bento",
+        "Artist": "Iwan Fals",
+        "Link": "https://www.youtube.com/watch?v=efgh5678"
+      },
+      {
+        "Name": "Kumenanti Seorang Kekasih",
+        "Artist": "Iwan Fals",
+        "Link": "https://www.youtube.com/watch?v=hijk9012"
+      },
+      {
+        "Name": "Kupu-Kupu Kertas",
+        "Artist": "Ebiet G. Ade",
+        "Link": "https://www.youtube.com/watch?v=lmno3456"
+      },
+      {
+        "Name": "Berita Kepada Kawan",
+        "Artist": "Ebiet G. Ade",
+        "Link": "https://www.youtube.com/watch?v=pqrs7890"
+      },
+      {
+        "Name": "Kumenanti Seorang Kekasih",
+        "Artist": "Iwan Fals",
+        "Link": "https://www.youtube.com/watch?v=stuv1234"
+      },
+      {
+        "Name": "Kupu-Kupu Hitam Putih",
+        "Artist": "Iwan Fals",
+        "Link": "https://www.youtube.com/watch?v=wxyz5678"
+      },
+      {
+        "Name": "Hidupku Sunyi",
+        "Artist": "Tantowi Yahya",
+        "Link": "https://www.youtube.com/watch?v=abcd9012"
+      },
+      {
+        "Name": "Nusantara",
+        "Artist": "Tantowi Yahya",
+        "Link": "https://www.youtube.com/watch?v=efgh3456"
+      },
+      {
+        "Name": "Bengawan Solo",
+        "Artist": "Tantowi Yahya",
+        "Link": "https://www.youtube.com/watch?v=hijk7890"
+      }
+    ]
+  }
+  

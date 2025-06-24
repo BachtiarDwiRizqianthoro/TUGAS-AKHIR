@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Takut",
+            "Artist": "Via Vallen",
+            "Link": "https://www.youtube.com/watch?v=example1"
+        },
+        {
+            "Name": "Mimpi Buruk",
+            "Artist": "Nella Kharisma",
+            "Link": "https://www.youtube.com/watch?v=example2"
+        },
+        {
+            "Name": "Malam Mencekam",
+            "Artist": "Rita Sugiarto",
+            "Link": "https://www.youtube.com/watch?v=example3"
+        },
+        {
+            "Name": "Bayangan Hitam",
+            "Artist": "Rhoma Irama",
+            "Link": "https://www.youtube.com/watch?v=example4"
+        },
+        {
+            "Name": "Takut Kehilangan",
+            "Artist": "Lesti Kejora",
+            "Link": "https://www.youtube.com/watch?v=example5"
+        },
+        {
+            "Name": "Gelisah",
+            "Artist": "Evie Tamala",
+            "Link": "https://www.youtube.com/watch?v=example6"
+        },
+        {
+            "Name": "Rasa Takut",
+            "Artist": "Siti Badriah",
+            "Link": "https://www.youtube.com/watch?v=example7"
+        },
+        {
+            "Name": "Jeritan Malam",
+            "Artist": "Dewi Perssik",
+            "Link": "https://www.youtube.com/watch?v=example8"
+        },
+        {
+            "Name": "Ketakutan",
+            "Artist": "Cita Citata",
+            "Link": "https://www.youtube.com/watch?v=example9"
+        },
+        {
+            "Name": "Takut Sendiri",
+            "Artist": "Ayu Ting Ting",
+            "Link": "https://www.youtube.com/watch?v=example10"
+        }
+    ]
+}

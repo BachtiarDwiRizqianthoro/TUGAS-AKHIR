@@ -1,0 +1,51 @@
+{
+    "status": "success",
+    "songs": [
+      {
+        "Name": "Jangan Marah",
+        "Artist": "Trio Kwek Kwek",
+        "Link": "https://www.youtube.com/watch?v=3-qXC4Jxi5Y"
+      },
+      {
+        "Name": "Lia Marah!",
+        "Artist": "LiaChaCha",
+        "Link": "https://www.youtube.com/watch?v=Lj1OKggoVHE"
+      },
+      {
+        "Name": "Ah~ Bayinya Marah!",
+        "Artist": "BabyBus",
+        "Link": "https://www.youtube.com/watch?v=98RfkOBXP-M"
+      },
+      {
+        "Name": "Jangan Marah",
+        "Artist": "Alfira ZW",
+        "Link": "https://www.youtube.com/watch?v=qgpZv-ndvvE"
+      },
+      {
+        "Name": "Jangan Marah Marah",
+        "Artist": "Lagu Anak-Anak",
+        "Link": "https://www.youtube.com/watch?v=Augs5nxExJ4"
+      },
+      {
+        "Name": "Jangan Marah Marah",
+        "Artist": "Happy Holy Kids",
+        "Link": "https://www.youtube.com/watch?v=ua1rhCrK-nw"
+      },
+      {
+        "Name": "Mengenal Emosi",
+        "Artist": "Balita",
+        "Link": "https://www.youtube.com/watch?v=Xz8qBhIj9Nw"
+      },
+      {
+        "Name": "Senang Takut Marah Sedih",
+        "Artist": "Cocobi",
+        "Link": "https://www.youtube.com/watch?v=HdTLe5-kSU8"
+      },
+      {
+        "Name": "Ekspresi Emosi",
+        "Artist": "Unknown",
+        "Link": "https://www.youtube.com/watch?v=wAjP-tqKJi0"
+      }
+    ]
+  }
+  

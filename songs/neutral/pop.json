@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Sephia",
+            "Artist": "Sheila On 7",
+            "Link": "https://www.youtube.com/watch?v=1dWnS6F9m1w"
+        },
+        {
+            "Name": "Kisah Romantis",
+            "Artist": "Glenn Fredly",
+            "Link": "https://www.youtube.com/watch?v=2KzRjOJjMH8"
+        },
+        {
+            "Name": "Cinta Sejati",
+            "Artist": "Bunga Citra Lestari",
+            "Link": "https://www.youtube.com/watch?v=U4f9kypLztU"
+        },
+        {
+            "Name": "Hanya Memuji",
+            "Artist": "Marcell & Shanty",
+            "Link": "https://www.youtube.com/watch?v=F5rWzMb6fYI"
+        },
+        {
+            "Name": "Janji Suci",
+            "Artist": "Yovie & Nuno",
+            "Link": "https://www.youtube.com/watch?v=7dSytWqOfDg"
+        },
+        {
+            "Name": "Tak Pernah Padam",
+            "Artist": "Yura Yunita",
+            "Link": "https://www.youtube.com/watch?v=9PdMg_mLqFg"
+        },
+        {
+            "Name": "Buktikan",
+            "Artist": "Dewa 19",
+            "Link": "https://www.youtube.com/watch?v=ZxwUdtpFLYQ"
+        },
+        {
+            "Name": "Separuh Aku",
+            "Artist": "Noah",
+            "Link": "https://www.youtube.com/watch?v=tU3dYS43w9w"
+        },
+        {
+            "Name": "Terlanjur Cinta",
+            "Artist": "Rossa & Pasha Ungu",
+            "Link": "https://www.youtube.com/watch?v=Q7RWfsTlhYA"
+        },
+        {
+            "Name": "Cinta Ini Membunuhku",
+            "Artist": "D'Masiv",
+            "Link": "https://www.youtube.com/watch?v=QodT60ip2YQ"
+        }
+    ]
+}

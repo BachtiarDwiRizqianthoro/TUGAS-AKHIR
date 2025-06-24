@@ -1,0 +1,66 @@
+{
+    "status": "success",
+
+    "songs": [
+        {
+            "Name": "Before He Cheats",
+            "Album": "Some Hearts",
+            "Artist": "Carrie Underwood",
+            "Link": "https://www.youtube.com/watch?v=WaSy8yy-mr8"
+        },
+        {
+            "Name": "Gunpowder & Lead",
+            "Album": "Crazy Ex-Girlfriend",
+            "Artist": "Miranda Lambert",
+            "Link": "https://www.youtube.com/watch?v=EbaJgC-0m0Q"
+        },
+        {
+            "Name": "Courtesy of the Red, White and Blue",
+            "Album": "Unleashed",
+            "Artist": "Toby Keith",
+            "Link": "https://www.youtube.com/watch?v=ruNrdmjcNTc"
+        },
+        {
+            "Name": "White Liar",
+            "Album": "Revolution",
+            "Artist": "Miranda Lambert",
+            "Link": "https://www.youtube.com/watch?v=1d7O4tOHTG8"
+        },
+        {
+            "Name": "Goodbye Earl",
+            "Album": "Fly",
+            "Artist": "The Chicks (Dixie Chicks)",
+            "Link": "https://www.youtube.com/watch?v=Gw7gNf_9njs"
+        },
+        {
+            "Name": "Pria Idaman",
+            "Album": "Pria Idaman",
+            "Artist": "Nike Ardilla",
+            "Link": "https://www.youtube.com/watch?v=example6"
+        },
+        {
+            "Name": "Goyang Dombret",
+            "Album": "Dangdut Hits",
+            "Artist": "Devi Aldiva",
+            "Link": "https://www.youtube.com/watch?v=example7"
+        },
+        {
+            "Name": "Bebas",
+            "Album": "Bebas",
+            "Artist": "Iwa K",
+            "Link": "https://www.youtube.com/watch?v=example8"
+        },
+        {
+            "Name": "Panggung Sandiwara",
+            "Album": "Best of God Bless",
+            "Artist": "God Bless",
+            "Link": "https://www.youtube.com/watch?v=example9"
+        },
+        {
+            "Name": "Mimpi Yang Sempurna",
+            "Album": "Bintang di Surga",
+            "Artist": "Peterpan",
+            "Link": "https://www.youtube.com/watch?v=example10"
+        }
+    ]
+}

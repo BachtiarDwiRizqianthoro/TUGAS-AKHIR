@@ -1,0 +1,55 @@
+{
+    "songs": [
+      {
+        "Name": "Malam Biru",
+        "Artist": "Sandhy Sondoro",
+        "Link": "https://www.youtube.com/watch?v=example1"
+      },
+      {
+        "Name": "Juwita Malam",
+        "Artist": "Indra Lesmana",
+        "Link": "https://www.youtube.com/watch?v=example2"
+      },
+      {
+        "Name": "Senandung Rindu",
+        "Artist": "Tompi",
+        "Link": "https://www.youtube.com/watch?v=example3"
+      },
+      {
+        "Name": "Kisah Romantis",
+        "Artist": "Glenn Fredly",
+        "Link": "https://www.youtube.com/watch?v=example4"
+      },
+      {
+        "Name": "Cinta dan Rahasia",
+        "Artist": "Yura Yunita & Glenn Fredly",
+        "Link": "https://www.youtube.com/watch?v=example5"
+      },
+      {
+        "Name": "Aku Cinta Dia",
+        "Artist": "Dian Pramana Poetra",
+        "Link": "https://www.youtube.com/watch?v=example6"
+      },
+      {
+        "Name": "You Are My Everything",
+        "Artist": "Glenn Fredly",
+        "Link": "https://www.youtube.com/watch?v=example7"
+      },
+      {
+        "Name": "Sampaikan Sayangku Padanya",
+        "Artist": "Raisa",
+        "Link": "https://www.youtube.com/watch?v=example8"
+      },
+      {
+        "Name": "Sesaat Kau Hadir",
+        "Artist": "Utha Likumahuwa",
+        "Link": "https://www.youtube.com/watch?v=example9"
+      },
+      {
+        "Name": "Biru",
+        "Artist": "Vina Panduwinata",
+        "Link": "https://www.youtube.com/watch?v=example10"
+      }
+    ]
+  }
+  

@@ -1,0 +1,59 @@
+{
+    "status": "success",
+    "songs": [
+        {
+            "Name": "Senang Takut Marah Sedih",
+            "Album": "Lagu Anak",
+            "Artist": "Cocobi",
+            "Link": "https://www.youtube.com/watch?v=HdTLe5-kSU8"
+        },
+        {
+            "Name": "Ekspresi Emosi",
+            "Album": "Lagu Edukasi Anak",
+            "Artist": "Unknown",
+            "Link": "https://www.youtube.com/watch?v=wAjP-tqKJi0"
+        },
+        {
+            "Name": "Lia Marah!",
+            "Album": "Lagu Perasaan dan Emosi",
+            "Artist": "LiaChaCha",
+            "Link": "https://www.youtube.com/watch?v=Lj1OKggoVHE"
+        },
+        {
+            "Name": "Ah~ Bayinya Marah!",
+            "Album": "Lagu Bayi Marah",
+            "Artist": "BabyBus",
+            "Link": "https://www.youtube.com/watch?v=98RfkOBXP-M"
+        },
+        {
+            "Name": "Jangan Marah",
+            "Album": "Lagu Anak Indonesia",
+            "Artist": "Alfira ZW",
+            "Link": "https://www.youtube.com/watch?v=qgpZv-ndvvE"
+        },
+        {
+            "Name": "Jangan Marah Marah",
+            "Album": "Lagu Anak-Anak",
+            "Artist": "Kak Yudi",
+            "Link": "https://www.youtube.com/watch?v=Augs5nxExJ4"
+        },
+        {
+            "Name": "Jangan Marah",
+            "Album": "Lagu Anak",
+            "Artist": "Trio Kwek Kwek",
+            "Link": "https://www.youtube.com/watch?v=3-qXC4Jxi5Y"
+        },
+        {
+            "Name": "Jangan Marah Marah",
+            "Album": "Lagu Anak Anak",
+            "Artist": "Happy Holy Kids",
+            "Link": "https://www.youtube.com/watch?v=ua1rhCrK-nw"
+        },
+        {
+            "Name": "Mengenal Emosi",
+            "Album": "Lagu Anak Anak",
+            "Artist": "Balita",
+            "Link": "https://www.youtube.com/watch?v=Xz8qBhIj9Nw"
+        }
+    ]
+}

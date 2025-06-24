@@ -1,0 +1,64 @@
+{
+    "songs": [
+        {
+            "Name": "Hancur Aku",
+            "Album": "Laskar Cinta",
+            "Artist": "Dewa 19",
+            "Link": "https://www.youtube.com/watch?v=wJQSzJfF4JI"
+        },
+        {
+            "Name": "Buka Mata Hati",
+            "Album": "99% Aku Sudah Gila",
+            "Artist": "Slank",
+            "Link": "https://www.youtube.com/watch?v=0BErD2ATJZI"
+        },
+        {
+            "Name": "Muka Tebal",
+            "Album": "Mata Hati Telinga",
+            "Artist": "Jamrud",
+            "Link": "https://www.youtube.com/watch?v=xzBrzA6EmXU"
+        },
+        {
+            "Name": "Cukup Siti Nurbaya",
+            "Album": "Taman Langit",
+            "Artist": "Sheila On 7",
+            "Link": "https://www.youtube.com/watch?v=ZB_dPD0aXGc"
+        },
+        {
+            "Name": "Angin Malam",
+            "Album": "Tritura",
+            "Artist": "Nicky Astria",
+            "Link": "https://www.youtube.com/watch?v=8wLZq0yCJH8"
+        },
+        {
+            "Name": "Maaf",
+            "Album": "Hari Yang Cerah",
+            "Artist": "Peterpan",
+            "Link": "https://www.youtube.com/watch?v=aiDKPfKylRU"
+        },
+        {
+            "Name": "Hidup",
+            "Album": "Album 2007",
+            "Artist": "Kotak",
+            "Link": "https://www.youtube.com/watch?v=FPE4zDgnYlI"
+        },
+        {
+            "Name": "Kamu Harus Cepat Pulang",
+            "Album": "OST. Alexandria",
+            "Artist": "Peterpan",
+            "Link": "https://www.youtube.com/watch?v=obBBXEDPtbs"
+        },
+        {
+            "Name": "Luka Disini",
+            "Album": "OST. Alexandria",
+            "Artist": "Ungu",
+            "Link": "https://www.youtube.com/watch?v=XbMdPoZESlM"
+        },
+        {
+            "Name": "Beraksi",
+            "Album": "Rock N Love",
+            "Artist": "Kotak",
+            "Link": "https://www.youtube.com/watch?v=qNlzDbqaJMo"
+        }
+    ]
+}

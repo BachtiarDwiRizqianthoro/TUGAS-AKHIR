@@ -1,0 +1,54 @@
+{
+  "songs": [
+    {
+      "Name": "Danse Macabre",
+      "Artist": "Camille Saint-Saëns",
+      "Link": "http://www.youtube.com/watch?v=71fZhMXlGT4"
+    },
+    {
+      "Name": "Night on Bald Mountain",
+      "Artist": "Modest Mussorgsky",
+      "Link": "http://www.youtube.com/watch?v=XyR-poMsSWI"
+    },
+    {
+      "Name": "Psycho (Suite for Strings)",
+      "Artist": "Bernard Herrmann",
+      "Link": "http://www.youtube.com/watch?v=fQwzJ6VvUD0"
+    },
+    {
+      "Name": "Mars, the Bringer of War (from The Planets)",
+      "Artist": "Gustav Holst",
+      "Link": "http://www.youtube.com/watch?v=cXOanvv4plU"
+    },
+    {
+      "Name": "Threnody to the Victims of Hiroshima",
+      "Artist": "Krzysztof Penderecki",
+      "Link": "http://www.youtube.com/watch?v=Dp3BlFZWJNA"
+    },
+    {
+      "Name": "Rapsodia Nusantara No. 10",
+      "Artist": "Ananda Sukarlan",
+      "Link": "http://www.youtube.com/watch?v=s5Z9Gl7WnxI"
+    },
+    {
+      "Name": "The Funeral Pyre (2000)",
+      "Artist": "Tony Prabowo",
+      "Link": "http://www.youtube.com/watch?v=X1LEDfq6tts"
+    },
+    {
+      "Name": "Parentheses II",
+      "Artist": "Slamet Abdul Sjukur",
+      "Link": "http://www.youtube.com/watch?v=-q7VtkB10yk"
+    },
+    {
+      "Name": "Purwo (Sad Horor Mystical Music Ethnic Java)",
+      "Artist": "Mahardika Indra",
+      "Link": "http://www.youtube.com/watch?v=Hvn43xgodao"
+    },
+    {
+      "Name": "Backsound Gamelan Mistis - Horor Seram",
+      "Artist": "PADEPOKAN KUNTUL SAKTI",
+      "Link": "http://www.youtube.com/watch?v=sh7n73x3owM"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+    "songs": [
+      {
+        "Name": "Bebas",
+        "Artist": "Iwan Fals",
+        "Link": "https://www.youtube.com/watch?v=example1"
+      },
+      {
+        "Name": "Kita Selamanya",
+        "Artist": "D'Masiv",
+        "Link": "https://www.youtube.com/watch?v=example2"
+      },
+      {
+        "Name": "Cinta Gila",
+        "Artist": "Slank",
+        "Link": "https://www.youtube.com/watch?v=example3"
+      },
+      {
+        "Name": "Melompat Lebih Tinggi",
+        "Artist": "Sheila On 7",
+        "Link": "https://www.youtube.com/watch?v=example4"
+      },
+      {
+        "Name": "Saat Terakhir",
+        "Artist": "ST12",
+        "Link": "https://www.youtube.com/watch?v=example5"
+      },
+      {
+        "Name": "Garuda di Dadaku",
+        "Artist": "Netral",
+        "Link": "https://www.youtube.com/watch?v=example6"
+      },
+      {
+        "Name": "Bendera",
+        "Artist": "Cokelat",
+        "Link": "https://www.youtube.com/watch?v=example7"
+      },
+      {
+        "Name": "Rock Bergema",
+        "Artist": "Jamrud",
+        "Link": "https://www.youtube.com/watch?v=example8"
+      },
+      {
+        "Name": "Welcome to My Paradise",
+        "Artist": "Steven & Coconut Treez",
+        "Link": "https://www.youtube.com/watch?v=example9"
+      },
+      {
+        "Name": "Aku Ingin",
+        "Artist": "Once Mekel",
+        "Link": "https://www.youtube.com/watch?v=example10"
+      }
+    ]
+  }
+  

@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Melati Suci",
+            "Artist": "Guruh Soekarnoputra",
+            "Link": "https://www.youtube.com/watch?v=WzNfJ6Ko91M"
+        },
+        {
+            "Name": "Nusantara",
+            "Artist": "Addie MS & Twilite Orchestra",
+            "Link": "https://www.youtube.com/watch?v=F2lA8XUQ9w4"
+        },
+        {
+            "Name": "Simfoni Raya",
+            "Artist": "Twilite Orchestra",
+            "Link": "https://www.youtube.com/watch?v=JxNfQkWzXzc"
+        },
+        {
+            "Name": "Bubuy Bulan (Orkestra Version)",
+            "Artist": "Dian HP & Erwin Gutawa",
+            "Link": "https://www.youtube.com/watch?v=VQ7NqDLzR1U"
+        },
+        {
+            "Name": "Indonesia Pusaka (Instrumental)",
+            "Artist": "Addie MS & Twilite Orchestra",
+            "Link": "https://www.youtube.com/watch?v=4vGb-PfVxBo"
+        },
+        {
+            "Name": "Yamko Rambe Yamko (Instrumental)",
+            "Artist": "Erwin Gutawa",
+            "Link": "https://www.youtube.com/watch?v=7PXaZyjlxiE"
+        },
+        {
+            "Name": "Asmara Nusantara",
+            "Artist": "Guruh Gipsy",
+            "Link": "https://www.youtube.com/watch?v=YRmFKmXoT7Y"
+        },
+        {
+            "Name": "Karena Kau",
+            "Artist": "Twilite Orchestra",
+            "Link": "https://www.youtube.com/watch?v=JzQ7KfDlzMw"
+        },
+        {
+            "Name": "Dawai Dalam Hati",
+            "Artist": "Dwiki Dharmawan",
+            "Link": "https://www.youtube.com/watch?v=2QHa9ZXJ5oU"
+        },
+        {
+            "Name": "Mahakarya Indonesia",
+            "Artist": "Addie MS",
+            "Link": "https://www.youtube.com/watch?v=9mNKQf3OyoE"
+        }
+    ]
+}

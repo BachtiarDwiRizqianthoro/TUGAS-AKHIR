@@ -1,0 +1,65 @@
+{
+    "status": "success",
+    "songs": [
+        {
+            "Name": "Ekspresi Emosi",
+            "Album": "Lagu Edukasi Anak",
+            "Artist": "Unknown",
+            "Link": "https://www.youtube.com/watch?v=wAjP-tqKJi0"
+        },
+        {
+            "Name": "Mengenal Emosi",
+            "Album": "Lagu Anak Anak",
+            "Artist": "Balita",
+            "Link": "https://www.youtube.com/watch?v=zKpYEF85iN8"
+        },
+        {
+            "Name": "Wajah Gembira, Wajah Sedih",
+            "Album": "Lagu Emosional untuk Anak",
+            "Artist": "HeyKids",
+            "Link": "https://www.vidio.com/watch/8120560-wajah-gembira-wajah-sedih-lagu-emosional-untuk-anak-lagu-anak-anak-heykids"
+        },
+        {
+            "Name": "Belajar Mengenal Emosi",
+            "Album": "Lagu Anak Anak Indonesia",
+            "Artist": "IMU",
+            "Link": "https://www.youtube.com/watch?v=I9KfojzEYJE"
+        },
+        {
+            "Name": "Jangan Marah",
+            "Album": "Lagu Anak Indonesia",
+            "Artist": "Alfira ZW",
+            "Link": "https://www.youtube.com/watch?v=qgpZv-ndvvE"
+        },
+        {
+            "Name": "Jangan Marah",
+            "Album": "Lagu Anak Indonesia",
+            "Artist": "Jane Gabriela Sutedja",
+            "Link": "https://www.youtube.com/watch?v=sRBJDtvzIXs"
+        },
+        {
+            "Name": "Jangan Marah Marah",
+            "Album": "Lagu Anak-Anak",
+            "Artist": "Kak Yudi",
+            "Link": "https://www.youtube.com/watch?v=Augs5nxExJ4"
+        },
+        {
+            "Name": "Jangan Marah",
+            "Album": "Lagu Anak",
+            "Artist": "Trio Kwek Kwek",
+            "Link": "https://www.youtube.com/watch?v=3-qXC4Jxi5Y"
+        },
+        {
+            "Name": "Jangan Marah Marah",
+            "Album": "Lagu Anak Anak",
+            "Artist": "Happy Holy Kids",
+            "Link": "https://www.youtube.com/watch?v=ua1rhCrK-nw"
+        },
+        {
+            "Name": "Lia Marah!",
+            "Album": "Lagu Perasaan dan Emosi",
+            "Artist": "LiaChaCha",
+            "Link": "https://www.youtube.com/watch?v=Lj1OKggoVHE"
+        }
+    ]
+}

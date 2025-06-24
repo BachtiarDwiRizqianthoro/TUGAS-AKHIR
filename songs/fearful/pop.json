@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Bayangan Takut",
+            "Artist": "Rossa",
+            "Link": "https://www.youtube.com/watch?v=abcd1234"
+        },
+        {
+            "Name": "Hantui Aku",
+            "Artist": "Afgan",
+            "Link": "https://www.youtube.com/watch?v=efgh5678"
+        },
+        {
+            "Name": "Malam Sepi",
+            "Artist": "Rizky Febian",
+            "Link": "https://www.youtube.com/watch?v=ijkl9101"
+        },
+        {
+            "Name": "Bisikan Hati",
+            "Artist": "Bunga Citra Lestari",
+            "Link": "https://www.youtube.com/watch?v=mnop1121"
+        },
+        {
+            "Name": "Jejak Kelam",
+            "Artist": "Tulus",
+            "Link": "https://www.youtube.com/watch?v=qrst3141"
+        },
+        {
+            "Name": "Sunyi Tanpa Cahaya",
+            "Artist": "Glenn Fredly",
+            "Link": "https://www.youtube.com/watch?v=uvwx5161"
+        },
+        {
+            "Name": "Mimpi Buruk",
+            "Artist": "Isyana Sarasvati",
+            "Link": "https://www.youtube.com/watch?v=yzab7181"
+        },
+        {
+            "Name": "Rahasia Bayangan",
+            "Artist": "Judika",
+            "Link": "https://www.youtube.com/watch?v=cdef9202"
+        },
+        {
+            "Name": "Takut Sendiri",
+            "Artist": "Yura Yunita",
+            "Link": "https://www.youtube.com/watch?v=ghij2324"
+        },
+        {
+            "Name": "Labirin Malam",
+            "Artist": "Marion Jola",
+            "Link": "https://www.youtube.com/watch?v=klmn3434"
+        }
+    ]
+}

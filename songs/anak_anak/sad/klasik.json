@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Swan Lake Theme",
+            "Artist": "Pyotr Ilyich Tchaikovsky",
+            "Link": "https://www.youtube.com/watch?v=9cNQFB0TDfY"
+        },
+        {
+            "Name": "Clair de Lune",
+            "Artist": "Claude Debussy",
+            "Link": "https://www.youtube.com/watch?v=CvFH_6DNRCY"
+        },
+        {
+            "Name": "Gymnopédie No. 1",
+            "Artist": "Erik Satie",
+            "Link": "https://www.youtube.com/watch?v=S-Xm7s9eGxU"
+        },
+        {
+            "Name": "Nocturne in E-Flat Major, Op. 9, No. 2",
+            "Artist": "Frédéric Chopin",
+            "Link": "https://www.youtube.com/watch?v=9E6b3swbnWg"
+        },
+        {
+            "Name": "Adagio for Strings",
+            "Artist": "Samuel Barber",
+            "Link": "https://www.youtube.com/watch?v=izQsgE0L450"
+        },
+        {
+            "Name": "Ave Maria",
+            "Artist": "Franz Schubert",
+            "Link": "https://www.youtube.com/watch?v=2H5rusic0zc"
+        },
+        {
+            "Name": "Pavane pour une infante défunte",
+            "Artist": "Maurice Ravel",
+            "Link": "https://www.youtube.com/watch?v=3HFe3JQotlU"
+        },
+        {
+            "Name": "Moonlight Sonata (1st Movement)",
+            "Artist": "Ludwig van Beethoven",
+            "Link": "https://www.youtube.com/watch?v=4Tr0otuiQuU"
+        },
+        {
+            "Name": "The Carnival of the Animals: The Swan",
+            "Artist": "Camille Saint-Saëns",
+            "Link": "https://www.youtube.com/watch?v=WQfqG9ugq9I"
+        },
+        {
+            "Name": "Lacrimosa (from Requiem in D Minor)",
+            "Artist": "Wolfgang Amadeus Mozart",
+            "Link": "https://www.youtube.com/watch?v=5oYKonYBujg"
+        }
+    ]
+}

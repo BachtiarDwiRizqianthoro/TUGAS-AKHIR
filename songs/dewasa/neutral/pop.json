@@ -1,0 +1,54 @@
+{
+    "songs":[
+    {
+      "Name": "Kupu-Kupu",
+      "Artist": "Tiara Andini",
+      "Link": "https://www.youtube.com/watch?v=_A43rHc-VXg"
+    },
+    {
+      "Name": "Kata Mereka Ini Berlebihan",
+      "Artist": "Bernadya",
+      "Link": "https://www.youtube.com/watch?v=plmkpybOKa0"
+    },
+    {
+      "Name": "Gala Bunga Matahari",
+      "Artist": "Sal Priadi",
+      "Link": "https://www.youtube.com/watch?v=AQpEIZ8dNcU"
+    },
+    {
+      "Name": "Untungnya, Hidup Harus Terus Berjalan",
+      "Artist": "Bernadya",
+      "Link": "https://www.youtube.com/watch?v=VSL5F43qgng"
+    },
+    {
+      "Name": "Sialan",
+      "Artist": "Juicy Luicy & Adrian Khalif",
+      "Link": "https://www.youtube.com/watch?v=0i-D1eBVKUM"
+    },
+    {
+      "Name": "Mati-matian",
+      "Artist": "Mahalini",
+      "Link": "https://www.youtube.com/watch?v=LAOxuo6pkdo"
+    },
+    {
+      "Name": "Teramini",
+      "Artist": "Ghea Indrawari",
+      "Link": "https://www.youtube.com/watch?v=4ot9IzcAPb8"
+    },
+    {
+      "Name": "Boleh Juga",
+      "Artist": "Salma Salsabil",
+      "Link": "https://www.youtube.com/watch?v=j8RVVuAnhjw"
+    },
+    {
+      "Name": "Pesan Terakhir",
+      "Artist": "Lyodra",
+      "Link": "https://www.youtube.com/watch?v=oaFj0lRi3gw"
+    },
+    {
+      "Name": "Kisah Tanpa Dirimu",
+      "Artist": "Anggis Devaki",
+      "Link": "https://www.youtube.com/watch?v=f11AZg7Xw40"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+    "songs": [
+      {
+        "Name": "Pergi Pagi Pulang Pagi",
+        "Artist": "Armada",
+        "Link": "https://www.youtube.com/watch?v=example1"
+      },
+      {
+        "Name": "Kembali Pulang",
+        "Artist": "Bimbo",
+        "Link": "https://www.youtube.com/watch?v=example2"
+      },
+      {
+        "Name": "Aku dan Dirimu",
+        "Artist": "Ari Lasso & BCL",
+        "Link": "https://www.youtube.com/watch?v=example3"
+      },
+      {
+        "Name": "Kemesraan",
+        "Artist": "Jamal Mirdad & Hetty Koes Endang",
+        "Link": "https://www.youtube.com/watch?v=example4"
+      },
+      {
+        "Name": "Darah Muda",
+        "Artist": "Rhoma Irama",
+        "Link": "https://www.youtube.com/watch?v=example5"
+      },
+      {
+        "Name": "Gembala",
+        "Artist": "Bimbo",
+        "Link": "https://www.youtube.com/watch?v=example6"
+      },
+      {
+        "Name": "Bento",
+        "Artist": "Iwan Fals",
+        "Link": "https://www.youtube.com/watch?v=example7"
+      },
+      {
+        "Name": "Kopi Dangdut",
+        "Artist": "Fahmi Shahab",
+        "Link": "https://www.youtube.com/watch?v=example8"
+      },
+      {
+        "Name": "Anak Desa",
+        "Artist": "Doel Sumbang",
+        "Link": "https://www.youtube.com/watch?v=example9"
+      },
+      {
+        "Name": "Oleh-Oleh",
+        "Artist": "Rita Sugiarto",
+        "Link": "https://www.youtube.com/watch?v=example10"
+      }
+    ]
+  }
+  

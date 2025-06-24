@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "Name": "Danse Macabre",
+            "Artist": "Saint-Saëns (Arr. Indonesia Philharmonic)",
+            "Link": "https://www.youtube.com/watch?v=YyknBTm_YyM"
+        },
+        {
+            "Name": "Gending Perang",
+            "Artist": "Orkestra Gamelan Klasik",
+            "Link": "https://www.youtube.com/watch?v=xX7bhPlBqIk"
+        },
+        {
+            "Name": "Bayang-Bayang",
+            "Artist": "Addie MS & Twilite Orchestra",
+            "Link": "https://www.youtube.com/watch?v=abcd1234"
+        },
+        {
+            "Name": "Lukisan Malam",
+            "Artist": "Indonesian Philharmonic Orchestra",
+            "Link": "https://www.youtube.com/watch?v=efgh5678"
+        },
+        {
+            "Name": "Merinding Rasa",
+            "Artist": "Orkes Simfoni Nusantara",
+            "Link": "https://www.youtube.com/watch?v=ijkl9101"
+        },
+        {
+            "Name": "Serenade Misteri",
+            "Artist": "Erwin Gutawa Orchestra",
+            "Link": "https://www.youtube.com/watch?v=mnop1121"
+        },
+        {
+            "Name": "Bayangan Senja",
+            "Artist": "Indonesian National Orchestra",
+            "Link": "https://www.youtube.com/watch?v=qrst3141"
+        },
+        {
+            "Name": "Nada Mencekam",
+            "Artist": "Andi Rianto & Magenta Orchestra",
+            "Link": "https://www.youtube.com/watch?v=uvwx5161"
+        },
+        {
+            "Name": "Labirin Malam",
+            "Artist": "Indonesian Symphony",
+            "Link": "https://www.youtube.com/watch?v=yzab7181"
+        },
+        {
+            "Name": "Rahasia Kelam",
+            "Artist": "Gamelan Orchestra & Ensemble",
+            "Link": "https://www.youtube.com/watch?v=cdef9202"
+        }
+    ]
+}
