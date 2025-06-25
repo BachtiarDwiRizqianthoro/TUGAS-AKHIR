@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-g">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Admin | Riwayat User</title>
 
@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='cssadmin/dist/css/adminlte.min.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='cssadmin/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='cssadmin/plugins/datatables-responsive/css/responsive.bootstrap4.min.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -64,7 +65,7 @@
                 <i class="nav-icon fas fa-sign-out-alt"></i>
                 <p>Logout</p>
             </a>
-          </li>      
+          </li>        
         </ul>
       </nav>
       </div>
@@ -95,42 +96,44 @@
                 <h3 class="card-title">Seluruh riwayat rekomendasi yang diterima oleh pengguna.</h3>
               </div>
               <div class="card-body">
-                <table id="historyTable" class="table table-bordered table-striped">
-                  <thead>
-                  <tr>
-                    <th>No</th>
-                    <th>Nama Pengguna</th>
-                    <th>Tanggal</th>
-                    <th>Ekspresi</th>
-                    <th>Genre</th>
-                    <th>Judul Lagu</th>
-                    <th>Artis</th>
-                    <th>Aksi</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  {% for history, user in all_history %}
-                  <tr>
-                    <td>{{ loop.index }}</td>
-                    <td>{{ user.username }}</td>
-                    <td>{{ history.timestamp.strftime('%d %b %Y, %H:%M') }}</td>
-                    <td>{{ history.emotion }}</td>
-                    <td>{{ history.genre }}</td>
-                    <td>{{ history.song_name }}</td>
-                    <td>{{ history.artist_name }}</td>
-                    <td>
-                      <a href="{{ history.youtube_link }}" target="_blank" class="btn btn-danger btn-sm" title="Tonton di YouTube">
-                        <i class="fab fa-youtube"></i>
-                      </a>
-                      <button class="btn btn-warning btn-sm delete-btn" data-id="{{ history.id }}" title="Hapus Riwayat">
-                        <i class="fas fa-trash"></i>
-                      </button>
-                    </td>
+                <div class="table-responsive">
+                  <table id="historyTable" class="table table-bordered table-striped">
+                    <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>Nama Pengguna</th>
+                      <th>Tanggal</th>
+                      <th>Ekspresi</th>
+                      <th>Genre</th>
+                      <th>Judul Lagu</th>
+                      <th>Artis</th>
+                      <th>Aksi</th>
                     </tr>
-                  {% endfor %}
-                  </tbody>
-                </table>
-              </div>
+                    </thead>
+                    <tbody>
+                    {% for history, user in all_history %}
+                    <tr>
+                      <td>{{ loop.index }}</td>
+                      <td>{{ user.username }}</td>
+                      <td>{{ history.timestamp.strftime('%d %b %Y, %H:%M') }}</td>
+                      <td>{{ history.emotion }}</td>
+                      <td>{{ history.genre }}</td>
+                      <td>{{ history.song_name }}</td>
+                      <td>{{ history.artist_name }}</td>
+                      <td>
+                        <a href="{{ history.youtube_link }}" target="_blank" class="btn btn-danger btn-sm" title="Tonton di YouTube">
+                          <i class="fab fa-youtube"></i>
+                        </a>
+                        <button class="btn btn-warning btn-sm delete-btn" data-id="{{ history.id }}" title="Hapus Riwayat">
+                          <i class="fas fa-trash"></i>
+                        </button>
+                      </td>
+                      </tr>
+                    {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+                </div>
               </div>
             </div>
           </div>
@@ -138,7 +141,7 @@
       </section>
     </div>
   <footer class="main-footer">
-    <strong>Copyright &copy; 2023-2025 <a href="#">Moodify.io</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2024-2025 <a href="#">Moodify.io</a>
   </footer>
 
 </div>
@@ -149,24 +152,22 @@
 <script src="{{ url_for('static', filename='cssadmin/plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
 <script src="{{ url_for('static', filename='cssadmin/plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
 <script src="{{ url_for('static', filename='cssadmin/dist/js/adminlte.min.js') }}"></script>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <script>
 $(function () {
   // Inisialisasi DataTable dan simpan dalam variabel 'table'
   var table = $("#historyTable").DataTable({
-    "responsive": true, "lengthChange": false, "autoWidth": false,
+    // LANGKAH 1: Ubah opsi "responsive" menjadi false agar tabel bisa di-scroll
+    "responsive": false, 
+    "lengthChange": false, 
+    "autoWidth": false,
   });
 
   // --- LOGIKA HAPUS RIWAYAT ---
-  // Event listener untuk semua tombol dengan class '.delete-btn' di dalam tabel
   $('#historyTable tbody').on('click', '.delete-btn', function() {
-    // Ambil ID dari atribut 'data-id' tombol yang diklik
     var historyId = $(this).data('id');
-    // Simpan referensi ke baris (tr) yang akan dihapus
     var row = $(this).closest('tr');
 
-    // Tampilkan dialog konfirmasi SweetAlert
     Swal.fire({
       title: 'Apakah Anda yakin?',
       text: "Riwayat yang dihapus tidak dapat dikembalikan!",
@@ -177,43 +178,23 @@ $(function () {
       confirmButtonText: 'Ya, hapus!',
       cancelButtonText: 'Batal'
     }).then((result) => {
-      // Jika pengguna menekan tombol konfirmasi
       if (result.isConfirmed) {
-        // Kirim permintaan hapus ke server menggunakan Fetch API
         fetch('/hapus_riwayat/' + historyId, {
           method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          }
+          headers: { 'Content-Type': 'application/json' }
         })
         .then(response => response.json())
         .then(data => {
           if (data.success) {
-            // Jika backend merespons sukses, hapus baris dari tabel
             table.row(row).remove().draw();
-            // Tampilkan notifikasi sukses
-            Swal.fire(
-              'Dihapus!',
-              data.message, // Pesan dari backend: 'Riwayat berhasil dihapus.'
-              'success'
-            );
+            Swal.fire('Dihapus!', data.message, 'success');
           } else {
-            // Jika backend merespons gagal, tampilkan notifikasi error
-            Swal.fire(
-              'Gagal!',
-              data.message, // Pesan dari backend: 'Gagal menghapus riwayat.'
-              'error'
-            );
+            Swal.fire('Gagal!', data.message, 'error');
           }
         })
         .catch(error => {
-          // Tangani jika ada error koneksi ke server
           console.error('Error:', error);
-          Swal.fire(
-            'Error!',
-            'Terjadi kesalahan saat menghubungi server.',
-            'error'
-          );
+          Swal.fire('Error!', 'Terjadi kesalahan saat menghubungi server.', 'error');
         });
       }
     });

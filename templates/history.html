@@ -7,7 +7,7 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     
@@ -85,14 +85,6 @@
             color: #ffd700;
         }
         
-        .dropdown-menu {
-            border-radius: 0.5rem;
-        }
-
-        .dropdown-item {
-            font-weight: 500;
-        }
-        
         /* --- Konten Utama --- */
         .main-container {
             padding-top: 120px;
@@ -117,13 +109,6 @@
         }
         
         /* --- Tabel --- */
-        .table {
-            border-collapse: separate;
-            border-spacing: 0;
-            border-radius: 10px;
-            overflow: hidden; /* Penting untuk border-radius */
-        }
-
         .table thead {
             background-color: #343a40;
             color: white;
@@ -131,42 +116,97 @@
 
         .table th, .table td {
             vertical-align: middle;
-            text-align: center;
+            text-align: left;
             padding: 1rem;
         }
-        
-        .table td:nth-child(6), .table th:nth-child(6),
-        .table td:nth-child(7), .table th:nth-child(7) {
-            text-align: left;
-        }
+
+        .table th:first-child, .table td:first-child { text-align: center; }
+        .table th:last-child, .table td:last-child { text-align: center; }
 
         .btn-watch {
             font-weight: 500;
-            width: 110px;
+            min-width: 110px;
             transition: all 0.2s ease-in-out;
         }
         .btn-watch:hover {
             transform: scale(1.05);
         }
 
-        /* --- PERUBAHAN CSS DI SINI --- */
-        /* 1. Tambahkan @keyframes untuk animasi fadeIn */
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
+        .fade-in { animation: fadeIn 1s ease-out; }
+
+        /* --- CSS TAMBAHAN UNTUK MOBILE (PERBAIKAN LANJUTAN) --- */
+        @media (max-width: 768px) {
+            /* Perbaikan Navigasi */
+            nav {
+                position: relative;
+                flex-direction: column;
+                padding: 15px 5%;
             }
-            to {
-                opacity: 1;
-                transform: translateY(0);
+            nav .logo {
+                margin-bottom: 15px;
+            }
+            nav ul {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 0;
+                margin: 0;
+            }
+            nav ul li {
+                margin: 5px 10px;
+            }
+
+            /* Penyesuaian Konten */
+            .main-container {
+                padding-top: 20px;
+            }
+            .history-box {
+                padding: 20px 15px;
+            }
+            .history-box h1 {
+                font-size: 24px;
+            }
+
+            /* Logika Tampilan Kartu untuk Tabel */
+            .table-responsive {
+                border: none;
+            }
+            .table thead {
+                display: none;
+            }
+            .table, .table tbody, .table tr, .table td {
+                display: block;
+                width: 100%;
+            }
+            .table tr {
+                margin-bottom: 15px;
+                border: 1px solid #dee2e6;
+                border-radius: 8px;
+                padding: 10px;
+            }
+            .table td {
+                text-align: right;
+                padding-left: 50%;
+                position: relative;
+                border: none;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+            .table td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                width: calc(50% - 20px);
+                padding-right: 10px;
+                font-weight: 600;
+                text-align: left;
+            }
+            .table td:last-child {
+                text-align: center;
+                padding-left: 10px;
             }
         }
-
-        /* 2. Buat class .fade-in untuk menerapkan animasi */
-        .fade-in {
-            animation: fadeIn 1.5s ease-in-out;
-        }
-
     </style>
 </head>
 <body>
@@ -207,7 +247,7 @@
                 
                 {% if history_records %}
                 <div class="table-responsive">
-                    <table class="table table-striped table-hover table-bordered">
+                    <table class="table table-striped table-hover">
                         <thead>
                             <tr>
                                 <th>No</th>
@@ -223,14 +263,14 @@
                         <tbody>
                             {% for record in history_records %}
                             <tr>
-                                <td>{{ loop.index }}</td>
-                                <td>{{ record.timestamp.strftime('%d %b %Y, %H:%M') }}</td>
-                                <td>{{ record.age }}</td>
-                                <td>{{ record.emotion }}</td>
-                                <td>{{ record.genre }}</td>
-                                <td>{{ record.song_name }}</td>
-                                <td>{{ record.artist_name }}</td>
-                                <td>
+                                <td data-label="No">{{ loop.index }}</td>
+                                <td data-label="Tanggal">{{ record.timestamp.strftime('%d %b %Y, %H:%M') }}</td>
+                                <td data-label="Umur">{{ record.age }}</td>
+                                <td data-label="Ekspresi">{{ record.emotion }}</td>
+                                <td data-label="Genre">{{ record.genre }}</td>
+                                <td data-label="Judul Lagu">{{ record.song_name }}</td>
+                                <td data-label="Artis">{{ record.artist_name }}</td>
+                                <td data-label="Aksi">
                                     <a href="{{ record.youtube_link }}" target="_blank" class="btn btn-danger btn-sm btn-watch">
                                         <i class="fab fa-youtube me-2"></i>Tonton
                                     </a>
@@ -251,17 +291,13 @@
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const logoutLink = document.getElementById("logout-link");
-
             if (logoutLink) {
                 logoutLink.addEventListener("click", function (event) {
                     event.preventDefault();
-                    
                     const logoutUrl = this.href;
-
                     Swal.fire({
                         title: "Apakah Anda yakin ingin logout?",
                         icon: "warning",
